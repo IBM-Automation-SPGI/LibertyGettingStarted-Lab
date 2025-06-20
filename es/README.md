@@ -2,7 +2,7 @@
 
 ## Recopilación de datos, evaluaciones y aceleradores de implementación
 
-![bandera](./images/media/OpenLiberty.png)
+![bandera](./../../../images/media/OpenLiberty.png)
 
 **Última actualización:** marzo de 2024
 
@@ -100,7 +100,7 @@ De lo contrario, deberá reservar un entorno para el laboratorio. Puede obtenerl
 
 El entorno de laboratorio contiene una (1) máquina virtual Linux, denominada Workstation.
 
-<kbd><img src="./images/media/workstation.png" alt=""></kbd>
+<kbd><img src="./../../../images/media/workstation.png" alt=""></kbd>
 
 <br>
 
@@ -114,15 +114,15 @@ El entorno de laboratorio contiene una (1) máquina virtual Linux, denominada Wo
 
     c. Haga clic en el enlace **`vnc.html`** para abrir el entorno de laboratorio a través de la interfaz **noVNC** .
 
-    <kbd><img src="./images/media/vnc-link.png" alt=""></kbd>
+    <kbd><img src="./../images/media/vnc-link.png" alt=""></kbd>
 
     d. Haga clic en el botón **`Connect`**
 
-    <kbd><img src="./images/media/vnc-connect.png" alt=""></kbd>
+    <kbd><img src="./../images/media/vnc-connect.png" alt=""></kbd>
 
     e. Ingrese la contraseña: **IBMDem0s!.** Luego, haga clic en el botón **`Send Credentials`** para acceder al entorno de laboratorio.
 
-    <kbd><img src="./images/media/vnc-password.png" alt=""></kbd>
+    <kbd><img src="./../images/media/vnc-password.png" alt=""></kbd>
 
      <br>
     
@@ -140,7 +140,7 @@ El entorno de laboratorio contiene una (1) máquina virtual Linux, denominada Wo
      <br>
 
 
-    <kbd><img src="./images/media/techzone-user-pw.png" alt="pantalla de vm del estudiante"></kbd>
+    <kbd><img src="./../images/media/techzone-user-pw.png" alt="pantalla de vm del estudiante"></kbd>
 
      <br>
     
@@ -151,11 +151,11 @@ El entorno de laboratorio contiene una (1) máquina virtual Linux, denominada Wo
 
     a. Desde la máquina virtual del entorno, haga clic en el **icono de giro** en el panel de control noNC para abrir el menú.
 
-    <kbd><img src="./images/media/vnc-twisty.png" alt="ajustar a la ventana"></kbd>
+    <kbd><img src="./../images/media/vnc-twisty.png" alt="ajustar a la ventana"></kbd>
 
     b. Para aumentar el área visible, haga clic en `Settings > Scaling Mode` y configure el valor en `Remote Resizing`
 
-    <kbd><img src="./images/media/vnc-remote-resize.png" alt="ajustar a la ventana"></kbd>
+    <kbd><img src="./../images/media/vnc-remote-resize.png" alt="ajustar a la ventana"></kbd>
 
 2. Puede copiar/pegar texto de la guía de laboratorio en el entorno de laboratorio utilizando el portapapeles en el visor noVNC.
 
@@ -163,7 +163,7 @@ El entorno de laboratorio contiene una (1) máquina virtual Linux, denominada Wo
 
     b. Haga clic en el icono **`Clipboard`** y **`paste`** el texto en el portapapeles de noVNC.
 
-    <kbd><img src="./images/media/vnc-paste.png" alt="ajustar a la ventana"></kbd>
+    <kbd><img src="./../images/media/vnc-paste.png" alt="ajustar a la ventana"></kbd>
 
     c. Pegue el texto en la máquina virtual, como en una ventana de terminal, una ventana del navegador, etc.
 
@@ -173,25 +173,25 @@ El entorno de laboratorio contiene una (1) máquina virtual Linux, denominada Wo
 
 4. Para cambiar entre diferentes ventanas u obtener acceso a la barra de herramientas, haga clic en el ícono **`Activities`** dentro de la VM.
 
-    <kbd><img src="./images/media/Activities.png" alt="ajustar a la ventana"></kbd>
+    <kbd><img src="./../images/media/Activities.png" alt="ajustar a la ventana"></kbd>
 
     Luego, seleccione la aplicación que desea abrir en la barra de herramientas. En el laboratorio, usará Firefox y la terminal.
 
-    <kbd><img src="./images/media/Toolbar.png" alt="Barra de herramientas"></kbd>
+    <kbd><img src="./../images/media/Toolbar.png" alt="Barra de herramientas"></kbd>
 
 5. Cómo cambiar el color de fondo. En el entorno, el fondo predeterminado para las ventanas de terminal y Visual Studio Code es oscuro. Para la documentación del laboratorio, cambiamos el color a claro. Puedes mantener el fondo claro, pero si quieres cambiarlo a oscuro, aquí tienes la explicación de cómo hacerlo.
 
     1. Cómo cambiar el fondo de la terminal a blanco Haga clic derecho en el fondo de la terminal, luego seleccione Preferencias.
 
-        <kbd><img src="./images/media/Terminal-change-background1.png" alt="Cambio de terminal de fondo1"></kbd>
+        <kbd><img src="./../images/media/Terminal-change-background1.png" alt="Cambio de terminal de fondo1"></kbd>
 
         Se abrirá una ventana de Preferencias. Haz clic en Colores y desmarca la casilla "Usar colores del tema del sistema". (Si quieres volver al modo oscuro, vuelve a marcar la casilla).
 
-        <kbd><img src="./images/media/Terminal-change-background2.png" alt="Terminal-cambiar-fondo2"></kbd>
+        <kbd><img src="./../images/media/Terminal-change-background2.png" alt="Terminal-cambiar-fondo2"></kbd>
 
         El fondo de la terminal debería cambiar a blanco.
 
-        <kbd><img src="./images/media/Terminal-change-background3.png" alt="Terminal-cambiar-fondo3"></kbd>
+        <kbd><img src="./../images/media/Terminal-change-background3.png" alt="Terminal-cambiar-fondo3"></kbd>
 
         Cerrar la ventana de Preferencias.
 
@@ -204,23 +204,23 @@ El entorno de laboratorio contiene una (1) máquina virtual Linux, denominada Wo
          code ~/temp
         ```
 
-        <kbd><img src="./images/media/start-VSCode.png" alt="inicio-VSCode"></kbd>
+        <kbd><img src="./../images/media/start-VSCode.png" alt="inicio-VSCode"></kbd>
 
         Visual Studio Code se abre con un fondo oscuro. Haga clic en "Sí, confío en los autores".
 
-        <kbd><img src="./images/media/VSCode-trust.png" alt="Confianza en VSCode"></kbd>
+        <kbd><img src="./../images/media/VSCode-trust.png" alt="Confianza en VSCode"></kbd>
 
         Luego seleccione Preferencias &gt; Tema &gt; Tema de color
 
-        <kbd><img src="./images/media/VSCode-Theme.png" alt="Tema de VSCode"></kbd>
+        <kbd><img src="./../images/media/VSCode-Theme.png" alt="Tema de VSCode"></kbd>
 
         Seleccionar luz
 
-        <kbd><img src="./images/media/VSCode-Theme-light.png" alt="Tema claro de VSCode"></kbd>
+        <kbd><img src="./../images/media/VSCode-Theme-light.png" alt="Tema claro de VSCode"></kbd>
 
         La herramienta cambiará a un fondo claro, vea a continuación.
 
-        <kbd><img src="./images/media/VSCode-light.png" alt="VSCode-light"></kbd>
+        <kbd><img src="./../images/media/VSCode-light.png" alt="VSCode-light"></kbd>
 
         Cierre Visual Studio Code.
 
@@ -234,11 +234,11 @@ El entorno de laboratorio contiene una (1) máquina virtual Linux, denominada Wo
 
 1. Abra una terminal haciendo clic en Actividades y seleccionando terminal.
 
-    <kbd><img src="./images/media/Toolbar_terminal.png" alt="Terminal de la barra de herramientas"></kbd>
+    <kbd><img src="./../images/media/Toolbar_terminal.png" alt="Terminal de la barra de herramientas"></kbd>
 
     Se abre la ventana del terminal.
 
-    <kbd><img src="./images/media/Terminal.png" alt="Terminal"></kbd>
+    <kbd><img src="./../images/media/Terminal.png" alt="Terminal"></kbd>
 
 2. Compruebe la versión de Maven mediante el siguiente comando:
 
@@ -246,7 +246,7 @@ El entorno de laboratorio contiene una (1) máquina virtual Linux, denominada Wo
      mvn -version
     ```
 
-    <kbd><img src="./images/media/mvn-v.png" alt="mvn-v"></kbd>
+    <kbd><img src="./../images/media/mvn-v.png" alt="mvn-v"></kbd>
 
 3. Compruebe la versión de Docker mediante el siguiente comando:
 
@@ -254,7 +254,7 @@ El entorno de laboratorio contiene una (1) máquina virtual Linux, denominada Wo
      docker -v
     ```
 
-    <kbd><img src="./images/media/docker-v.png" alt="docker-v"></kbd>
+    <kbd><img src="./../images/media/docker-v.png" alt="docker-v"></kbd>
 
 4. Compruebe la versión de Git mediante el siguiente comando:
 
@@ -262,7 +262,7 @@ El entorno de laboratorio contiene una (1) máquina virtual Linux, denominada Wo
      git -v
     ```
 
-    <kbd><img src="./images/media/git-v.png" alt="git-v"></kbd>
+    <kbd><img src="./../images/media/git-v.png" alt="git-v"></kbd>
 
 ### 6.2 Crear los directorios de trabajo necesarios
 
@@ -283,24 +283,24 @@ El objetivo de esta sección es desarrollar una aplicación web sencilla para Li
 
 En este escenario, se desea crear una aplicación web Jakarta EE 10 llamada **simpleweb** y se usará Maven para compilarla. La forma más rápida de comenzar es usar una aplicación de inicio Open Liberty que genere un proyecto con la configuración de Maven y una configuración básica de Liberty.
 
-<kbd><img src="./images/media/LibertyStarter.png" alt="LibertyStarter"></kbd>
+<kbd><img src="./../images/media/LibertyStarter.png" alt="LibertyStarter"></kbd>
 
 El **programa de inicio de Open Liberty** te ofrece una forma sencilla y rápida de obtener los archivos necesarios para empezar a crear una aplicación en Open Liberty. No necesitas buscar qué añadir a tus archivos de compilación de Maven o Gradle. Se genera un archivo **RestApplication.java** sencillo para que puedas empezar a crear una aplicación basada en REST. Se proporciona un archivo de configuración **server.xml** con las características necesarias para las versiones de MicroProfile y Jakarta EE que seleccionaste previamente.
 
 1. Abra una ventana del navegador haciendo clic en **Actividades** y luego seleccione el ícono del navegador **Firefox** .
 
-    <kbd><img src="./images/media/Toolbar_firefox.png" alt="Barra de herramientas de Firefox"></kbd>
+    <kbd><img src="./../images/media/Toolbar_firefox.png" alt="Barra de herramientas de Firefox"></kbd>
 
     Si aparece una ventana emergente que indica que se requiere autenticación, ingrese **IBMDem0s!.**
 
-    <kbd><img src="./images/media/Authentication-required.png" alt="Se requiere autenticación"></kbd>
+    <kbd><img src="./../images/media/Authentication-required.png" alt="Se requiere autenticación"></kbd>
 
 2. Ingresa la URL **https://openliberty.io/start/**
 
 <table>
 <tbody>
 <tr class="odd">
-<td><kbd><img src="./images/media/info.png" alt="información de inicio de sesión"></kbd></td>
+<td><kbd><img src="./../images/media/info.png" alt="información de inicio de sesión"></kbd></td>
 <td>
 <p>Si la página no se abre, cierre el navegador y ábralo nuevamente. </p>
 </td>
@@ -310,15 +310,15 @@ El **programa de inicio de Open Liberty** te ofrece una forma sencilla y rápida
 
 1. Cambie el nombre del artefacto a **simpleweb** , cambie el nivel de Java a **17** y la versión de MicroProfile a **6.1** , luego haga clic en **Generar proyecto.**
 
-    <kbd><img src="./images/media/LibertyStarter-simpleweb.png" alt="LibertyStarter-simpleweb"></kbd>
+    <kbd><img src="./../images/media/LibertyStarter-simpleweb.png" alt="LibertyStarter-simpleweb"></kbd>
 
 2. Haga clic en **Guardar** para guardar el proyecto en Descargas.
 
-    <kbd><img src="./images/media/LibertyStarter-simpleweb-save.png" alt="LibertyStarter-simpleweb-save"></kbd>
+    <kbd><img src="./../images/media/LibertyStarter-simpleweb-save.png" alt="LibertyStarter-simpleweb-save"></kbd>
 
     Verás una ventana emergente como la de abajo. Haz clic en **«Entendido»** para cerrarla.
 
-    <kbd><img src="./images/media/LibertyStarter-simpleweb-save2.png" alt="LibertyStarter-simpleweb-save2"></kbd>
+    <kbd><img src="./../images/media/LibertyStarter-simpleweb-save2.png" alt="LibertyStarter-simpleweb-save2"></kbd>
 
 3. Extraiga el archivo.
 
@@ -331,7 +331,7 @@ El **programa de inicio de Open Liberty** te ofrece una forma sencilla y rápida
      unzip ~/Student/dev/simpleweb.zip -d ~/Student/dev/simpleweb
     ```
 
-    <kbd><img src="./images/media/image020.png" alt="imagen020"></kbd>
+    <kbd><img src="./../images/media/image020.png" alt="imagen020"></kbd>
 
     El proyecto se ha creado en el directorio **~/Student/dev/simpleweb** .
 
@@ -341,7 +341,7 @@ El **programa de inicio de Open Liberty** te ofrece una forma sencilla y rápida
      ls -lrt ~/Student/dev/simpleweb
     ```
 
-    <kbd><img src="./images/media/image021.png" alt="imagen021"></kbd>
+    <kbd><img src="./../images/media/image021.png" alt="imagen021"></kbd>
 
 ### 6.3.2. Inspeccionar el proyecto de inicio con Open Visual Studio Code
 
@@ -354,32 +354,32 @@ Ahora utilizará Visual Studio Code para ver lo que se ha generado como parte de
      code .
     ```
 
-    <kbd><img src="./images/media/image022.png" alt="imagen022"></kbd>
+    <kbd><img src="./../images/media/image022.png" alt="imagen022"></kbd>
 
     Se abrirá la interfaz de usuario de Visual Studio Code.
 
 2. Haga clic en **Sí, confío en los autores** para continuar.
 
-    <kbd><img src="./images/media/image023.png" alt="imagen023"></kbd>
+    <kbd><img src="./../images/media/image023.png" alt="imagen023"></kbd>
 
-    Si durante el laboratorio ve una de las ventanas emergentes a continuación o cualquier otra ventana emergente que le pide instalar algo, cierre la ventana emergente sin instalación haciendo clic en la X. <kbd></kbd>![imagen024](./images/media/image024.png)<kbd><img src="./images/media/image025.png" alt="imagen025"></kbd>
+    Si durante el laboratorio ve una de las ventanas emergentes a continuación o cualquier otra ventana emergente que le pide instalar algo, cierre la ventana emergente sin instalación haciendo clic en la X. <kbd></kbd>![imagen024](./../images/media/image024.png)<kbd><img src="./../images/media/image025.png" alt="imagen025"></kbd>
 
 3. Investigar el proyecto generado:
 
     En Visual Studio Code, consulta la sección **Explorador** para ver el contenido del proyecto. Encontrarás una carpeta de origen y una de destino, un Dockerfile y un archivo de compilación de Maven (pom.xml).
 
-    <kbd><img src="./images/media/image026.png" alt="imagen026"></kbd>
+    <kbd><img src="./../images/media/image026.png" alt="imagen026"></kbd>
 
 4. Eche un vistazo a la configuración de Maven generada
 
     a. Haga clic en **pom.xml** para ver el pom maven.
 
-    En la sección de compilación, puede encontrar la configuración del complemento liberty-maven-plugin. <kbd></kbd>![imagen027](./images/media/image027.png)
+    En la sección de compilación, puede encontrar la configuración del complemento liberty-maven-plugin. <kbd></kbd>![imagen027](./../images/media/image027.png)
 
 <table>
 <tbody>
 <tr class="odd">
-<td><kbd><img src="./images/media/info.png" alt="información de inicio de sesión"></kbd></td>
+<td><kbd><img src="./../images/media/info.png" alt="información de inicio de sesión"></kbd></td>
 <td>
 <p>No te preocupes si la versión del complemento ha cambiado a 3.10.2 o posterior. </p>
 </td>
@@ -395,15 +395,15 @@ b. Finally close the pom.xml.
 
     a. Abra **src &gt; main &gt; liberty &gt; config &gt; server.xml** para ver la configuración de Liberty.
 
-    <kbd><img src="./images/media/image028.png" alt="imagen028"></kbd>
+    <kbd><img src="./../images/media/image028.png" alt="imagen028"></kbd>
 
     Como puede ver, se han configurado las funciones para **jakartaee-10** y **MicroProfile-6.1** .
 
-    <kbd><img src="./images/media/image029.png" alt="imagen029"></kbd>
+    <kbd><img src="./../images/media/image029.png" alt="imagen029"></kbd>
 
     b. Desplácese hacia abajo y podrá ver que el punto final http y la aplicación web se han configurado.
 
-    <kbd><img src="./images/media/image030.png" alt="imagen030"></kbd>
+    <kbd><img src="./../images/media/image030.png" alt="imagen030"></kbd>
 
 ### 6.3.3 Ajustar la configuración de Liberty
 
@@ -415,16 +415,16 @@ Como práctica recomendada para optimizar el uso de memoria y espacio en disco d
 
 2. Elimine las líneas **&lt;feature&gt;jakartaee-10.0&lt;/feature&gt;** y **&lt;feature&gt;MicroProfile-6.1&lt;/feature&gt;** . La sección **featureManager** debería verse así:
 
-    <kbd><img src="./images/media/image031.png" alt="imagen031"></kbd>
+    <kbd><img src="./../images/media/image031.png" alt="imagen031"></kbd>
 
 3. Ahora usará el **asistente de configuración de Liberty Tools** para definir la función del servlet. Coloque el cursor al principio de una línea vacía en la sección featureManager. A continuación, pulse la **tecla Ctrl** y la barra **espaciadora** para activar el asistente de configuración de Liberty Tools. Debería ver algo similar a esto:
 
-    <kbd><img src="./images/media/image032.png" alt="imagen032"></kbd>
+    <kbd><img src="./../images/media/image032.png" alt="imagen032"></kbd>
 
 <table>
 <tbody>
 <tr class="odd">
-<td><kbd><img src="./images/media/info.png" alt="información de inicio de sesión"></kbd></td>
+<td><kbd><img src="./../images/media/info.png" alt="información de inicio de sesión"></kbd></td>
 <td>
 <p>Es posible que tengas que hacer clic en la flecha hacia la derecha para obtener la descripción. </p>
 </td>
@@ -434,27 +434,27 @@ Como práctica recomendada para optimizar el uso de memoria y espacio en disco d
 
 1. Seleccione **la característica** y se agregará el elemento de característica.
 
-    <kbd><img src="./images/media/image033.png" alt="imagen033"></kbd>
+    <kbd><img src="./../images/media/image033.png" alt="imagen033"></kbd>
 
 2. Utilice nuevamente **CTRL+ESPACIO** para obtener la lista de funciones disponibles.
 
-    <kbd><img src="./images/media/image034.png" alt="imagen034"></kbd>
+    <kbd><img src="./../images/media/image034.png" alt="imagen034"></kbd>
 
 3. Escriba la palabra **servlet** para ver las funciones de servlet disponibles.
 
-    <kbd><img src="./images/media/image035.png" alt="imagen035"></kbd>
+    <kbd><img src="./../images/media/image035.png" alt="imagen035"></kbd>
 
 4. Utilice la tecla de flecha hacia abajo para obtener la descripción de **servlet-6.0** .
 
-    <kbd><img src="./images/media/image036.png" alt="imagen036"></kbd>
+    <kbd><img src="./../images/media/image036.png" alt="imagen036"></kbd>
 
 5. Seleccione la función **servlet-6.0** y su configuración ahora debería verse así:
 
-    <kbd><img src="./images/media/image037.png" alt="imagen037"></kbd>
+    <kbd><img src="./../images/media/image037.png" alt="imagen037"></kbd>
 
 6. Para esta parte del laboratorio, no es necesario definir un almacén de claves ni el registro básico, por lo que deberá eliminar las entradas generadas. Su configuración debería verse así:
 
-    <kbd><img src="./images/media/image038.png" alt="imagen038"></kbd>
+    <kbd><img src="./../images/media/image038.png" alt="imagen038"></kbd>
 
 7. Guarde la configuración utilizando **CTRL+S** .
 
@@ -468,12 +468,12 @@ Su código se compila y se implementa automáticamente en su servidor en ejecuci
 
 Puedes ejecutar pruebas a demanda o incluso automáticamente para obtener información inmediata sobre tus cambios. También puedes conectar un depurador en cualquier momento para depurar tu aplicación en ejecución.
 
-<kbd><img src="./images/media/LibertyDevMode.png" alt="Modo LibertyDev"></kbd>
+<kbd><img src="./../images/media/LibertyDevMode.png" alt="Modo LibertyDev"></kbd>
 
 <table>
 <tbody>
 <tr class="odd">
-<td><kbd><img src="./images/media/info.png" alt="información de inicio de sesión"></kbd></td>
+<td><kbd><img src="./../images/media/info.png" alt="información de inicio de sesión"></kbd></td>
 <td>
 <p>Puedes usar las capacidades del modo de desarrollo de Liberty dentro y fuera de un IDE. Esto te brinda flexibilidad para que puedas decidir qué IDE usar.<br> En una ventana de terminal, usarías Liberty en modo de desarrollo con maven usando el comando <strong>mvn liberty:dev</strong> (o <strong>mvn liberty:devc</strong> si quieres desarrollar en un contenedor).<br> Para gradle, los comandos relacionados son <strong>gradle libertyDev</strong> y <strong>gradle libertyDevc</strong> . </p>
 </td>
@@ -485,28 +485,28 @@ En el entorno de laboratorio, el complemento Liberty Tools se ha instalado en Vi
 
 1. En Visual Studio Code, expanda el Panel de Liberty.
 
-    <kbd><img src="./images/media/image040.png" alt="imagen040"></kbd>
+    <kbd><img src="./../images/media/image040.png" alt="imagen040"></kbd>
 
 2. Haga clic derecho en **simpleweb** y luego **en Iniciar** para iniciar el servidor en modo de desarrollo.
 
-    <kbd><img src="./images/media/image041.png" alt="imagen041"></kbd>
+    <kbd><img src="./../images/media/image041.png" alt="imagen041"></kbd>
 
 3. Se abre una terminal dentro de Visual Studio Code y puedes ver que se activa el inicio del proceso de compilación.
 
-    <kbd><img src="./images/media/image042.png" alt="imagen042"></kbd>
+    <kbd><img src="./../images/media/image042.png" alt="imagen042"></kbd>
 
 4. Se descargan el complemento Maven de Liberty y los artefactos del servidor Liberty, luego el servidor está listo para la prueba.
 
-    <kbd><img src="./images/media/image043.png" alt="imagen043"></kbd>
+    <kbd><img src="./../images/media/image043.png" alt="imagen043"></kbd>
 
 5. Abra la ventana del navegador e introduzca la URL **localhost:9080** . Debería ver algo como esto:
 
-    <kbd><img src="./images/media/image044.png" alt="imagen044"></kbd>
+    <kbd><img src="./../images/media/image044.png" alt="imagen044"></kbd>
 
 <table>
 <tbody>
 <tr class="odd">
-<td><kbd><img src="./images/media/info.png" alt="información de inicio de sesión"></kbd></td>
+<td><kbd><img src="./../images/media/info.png" alt="información de inicio de sesión"></kbd></td>
 <td>
 <p>Si aparece una ventana emergente que dice <strong>Autenticación requerida</strong> , ingrese la contraseña <strong>IBMDem0s!</strong> y haga clic en <strong>Desbloquear</strong> . </p>
 </td>
@@ -526,43 +526,43 @@ Ahora editarás la aplicación **web simple** , que solo consta de un servlet. G
 
 2. En Visual Studio Code, expanda la ruta a **src/main/java/com/demo/rest** , luego **haga clic derecho** en **demo** y seleccione **Nuevo archivo** .
 
-    <kbd><img src="./images/media/image045.png" alt="imagen045"></kbd>
+    <kbd><img src="./../images/media/image045.png" alt="imagen045"></kbd>
 
 3. Ingrese el nombre **helloWorldServlet.java** y presione **ENTER** .
 
-    <kbd><img src="./images/media/image046.png" alt="imagen046"></kbd>
+    <kbd><img src="./../images/media/image046.png" alt="imagen046"></kbd>
 
 4. El archivo **src/main/java/com/demo/helloWorldServlet.java** se genera y se abre en un editor.
 
-    <kbd><img src="./images/media/image047.png" alt="imagen047"></kbd>
+    <kbd><img src="./../images/media/image047.png" alt="imagen047"></kbd>
 
 5. Elimine todo el código del archivo. Luego, introduzca **el servlet** y presione **Ctrl+Espacio** .
 
-    <kbd><img src="./images/media/image048.png" alt="imagen048"></kbd>
+    <kbd><img src="./../images/media/image048.png" alt="imagen048"></kbd>
 
 6. El asistente de código ofrece algunos métodos de servlet para Jakarta EE. Seleccione **servlet_doget** y se generará el código de inicio necesario. Como puede ver, los campos que deben modificarse están resaltados.
 
-    <kbd><img src="./images/media/image049.png" alt="imagen049"></kbd>
+    <kbd><img src="./../images/media/image049.png" alt="imagen049"></kbd>
 
 7. Cambia el **nombre del servlet** a **helloWorldServlet** y los **patrones de URL** a **/helloWorld** . El código debería verse así:
 
-    <kbd><img src="./images/media/image050.png" alt="imagen050"></kbd>
+    <kbd><img src="./../images/media/image050.png" alt="imagen050"></kbd>
 
 8. Presione **CTRL+S** para guardar el cambio de código. Observe la salida de la terminal. Como Liberty se ha iniciado en modo de desarrollo, los cambios de código se aplican automáticamente, el código fuente se compila y Liberty se actualiza.
 
-    <kbd><img src="./images/media/image051.png" alt="imagen051"></kbd>
+    <kbd><img src="./../images/media/image051.png" alt="imagen051"></kbd>
 
 9. Abra el navegador y la URL **localhost:9080/simpleweb/helloWorld** . Debería ver la salida del servlet creado.
 
-    <kbd><img src="./images/media/image052.png" alt="imagen052"></kbd>
+    <kbd><img src="./../images/media/image052.png" alt="imagen052"></kbd>
 
 10. Regrese a Visual Studio Code y cambie el código fuente del texto de respuesta del servlet a algo como esto: **helloWorld - Ejemplo de solicitud HTTP GET para HTTPServlet**
 
-    <kbd><img src="./images/media/image053.png" alt="imagen053"></kbd>
+    <kbd><img src="./../images/media/image053.png" alt="imagen053"></kbd>
 
 11. Guarde los cambios y vuelva a cargar la página en el navegador. El resultado debería actualizarse.
 
-    <kbd><img src="./images/media/image054.png" alt="imagen054"></kbd>
+    <kbd><img src="./../images/media/image054.png" alt="imagen054"></kbd>
 
 12. Regrese a Visual Studio Code y cierre el editor del archivo **helloWorldServlet.java** .
 
@@ -578,11 +578,11 @@ El pom de Maven generado no genera un archivo WAR por defecto, ya que utiliza un
 
 2. En el panel de Liberty, **haga clic derecho** en la aplicación **simpleweb** y seleccione **Detener** (o use **CTRL+C** en la ventana del terminal en su lugar).
 
-    <kbd><img src="./images/media/image055.png" alt="imagen055"></kbd>
+    <kbd><img src="./../images/media/image055.png" alt="imagen055"></kbd>
 
 3. Verificar en la terminal que Liberty haya sido detenido.
 
-    <kbd><img src="./images/media/image056.png" alt="imagen056"></kbd>
+    <kbd><img src="./../images/media/image056.png" alt="imagen056"></kbd>
 
 4. En Visual Studio Code, abra el archivo **pom.xml** y agregue a la configuración del complemento Maven de Liberty las líneas:
 
@@ -592,11 +592,11 @@ El pom de Maven generado no genera un archivo WAR por defecto, ya que utiliza un
      </configuration>
     ```
 
-    <kbd><img src="./images/media/image057.png" alt="imagen057"></kbd>
+    <kbd><img src="./../images/media/image057.png" alt="imagen057"></kbd>
 
 5. Si iniciara Liberty ahora nuevamente en modo de desarrollo, la propiedad looseApplication se ignoraría y vería una advertencia como esta:
 
-    <kbd><img src="./images/media/image058.png" alt="imagen058"></kbd>
+    <kbd><img src="./../images/media/image058.png" alt="imagen058"></kbd>
 
     Por lo tanto, debe iniciar Liberty en modo de ejecución para generar el archivo WAR. Esto se puede hacer introduciendo el comando en la ventana de terminal:
 
@@ -604,13 +604,13 @@ El pom de Maven generado no genera un archivo WAR por defecto, ya que utiliza un
      mvn liberty:run
     ```
 
-    <kbd><img src="./images/media/image059.png" alt="imagen059"></kbd>
+    <kbd><img src="./../images/media/image059.png" alt="imagen059"></kbd>
 
     Como puede ver en la captura de pantalla anterior, maven ha creado el archivo **simpleweb.war** y lo ha almacenado en el directorio **~/Student/dev/simpleweb/target/** .
 
 6. Desplácese hacia abajo y podrá ver que se ha instalado en el directorio ~/Student/dev/simpleweb/target/liberty/wlp/usr/servers/defaultServer/apps.
 
-    <kbd><img src="./images/media/image060.png" alt="imagen060"></kbd>
+    <kbd><img src="./../images/media/image060.png" alt="imagen060"></kbd>
 
 7. Siéntase libre de probar la aplicación en el navegador, luego detenga la instancia de Liberty usando **CTRL+C** .
 
@@ -642,7 +642,7 @@ Para obtener más detalles y opciones, consulte https://www.ibm.com/docs/en/was-
      ~/Student/dev/simpleweb/target/liberty/wlp/bin/server package defaultServer --archive=simpleweb-serverpackage.jar --include=all
     ```
 
-    <kbd><img src="./images/media/image061.png" alt="imagen061"></kbd>
+    <kbd><img src="./../images/media/image061.png" alt="imagen061"></kbd>
 
 2. Para entregar el paquete del servidor al equipo de operaciones, utilice los siguientes comandos:
 
@@ -680,7 +680,7 @@ Ahora explorará el paquete del servidor Liberty para comprender mejor cómo usa
 <table>
 <tbody>
 <tr class="odd">
-<td><kbd><img src="./images/media/info.png" alt="información de inicio de sesión"></kbd></td>
+<td><kbd><img src="./../images/media/info.png" alt="información de inicio de sesión"></kbd></td>
 <td>
 <p>En esta sección, usará el comando <strong>server run</strong> en lugar del comando <strong>server start</strong> . Esto le permitirá ver los registros inmediatamente en lugar de tener que usar el comando tail. También le permitirá detener el servidor Liberty con <strong>Ctrl+C.</strong> </p>
 </td>
@@ -697,7 +697,7 @@ Ahora explorará el paquete del servidor Liberty para comprender mejor cómo usa
      java -jar ~/Student/assets/simpleweb-serverpackage.jar
     ```
 
-    <kbd><img src="./images/media/image062.png" alt="imagen062"></kbd>
+    <kbd><img src="./../images/media/image062.png" alt="imagen062"></kbd>
 
     Se creó el directorio test/wlp y contiene la instancia de Liberty configurada, incluida la aplicación.
 
@@ -707,7 +707,7 @@ Ahora explorará el paquete del servidor Liberty para comprender mejor cómo usa
      test/wlp/bin/productInfo version
     ```
 
-    <kbd><img src="./images/media/image063.png" alt="imagen063"></kbd>
+    <kbd><img src="./../images/media/image063.png" alt="imagen063"></kbd>
 
 3. Ejecute el siguiente comando para **enumerar las características de Liberty** que se han instalado:
 
@@ -715,7 +715,7 @@ Ahora explorará el paquete del servidor Liberty para comprender mejor cómo usa
      test/wlp/bin/productInfo featureInfo
     ```
 
-    <kbd><img src="./images/media/image064.png" alt="imagen064"></kbd>
+    <kbd><img src="./../images/media/image064.png" alt="imagen064"></kbd>
 
     Como puede ver, el paquete de servidor proporcionado por el desarrollador solo contiene las características de **servlet-6.0** , que es la única característica requerida por la aplicación.
 
@@ -725,7 +725,7 @@ Ahora explorará el paquete del servidor Liberty para comprender mejor cómo usa
      test/wlp/bin/server list
     ```
 
-    <kbd><img src="./images/media/image065.png" alt="imagen065"></kbd>
+    <kbd><img src="./../images/media/image065.png" alt="imagen065"></kbd>
 
 5. **Inicie la instancia del servidor Liberty** ejecutando el comando:
 
@@ -733,7 +733,7 @@ Ahora explorará el paquete del servidor Liberty para comprender mejor cómo usa
      test/wlp/bin/server start defaultServer
     ```
 
-    <kbd><img src="./images/media/image066.png" alt="imagen066"></kbd>
+    <kbd><img src="./../images/media/image066.png" alt="imagen066"></kbd>
 
     Esto ejecuta el servidor en segundo plano y la salida se escribe en archivos en el directorio **test/wlp/bin/servers/defaultServer/logs** .
 
@@ -751,13 +751,13 @@ Ahora explorará el paquete del servidor Liberty para comprender mejor cómo usa
      cat test/wlp/usr/servers/defaultServer/logs/messages.log
     ```
 
-    <kbd><img src="./images/media/image067.png" alt="imagen067"></kbd>
+    <kbd><img src="./../images/media/image067.png" alt="imagen067"></kbd>
 
     Al principio del registro, se puede ver la versión de Open Liberty utilizada (versión 24.0.0.2 o posterior). El servidor se inicia cuando se muestra el mensaje **"El servidor defaultServer está listo para ejecutar un planeta más inteligente"** en el archivo messages.log.
 
 7. Pruebe que la aplicación sea accesible a través de la URL **http://localhost:9080/simpleweb/helloWorld**
 
-    <kbd><img src="./images/media/image068.png" alt="imagen068"></kbd>
+    <kbd><img src="./../images/media/image068.png" alt="imagen068"></kbd>
 
 ### 6.4.1.2 Actualizaciones dinámicas de Liberty
 
@@ -770,15 +770,15 @@ Hagamos un breve recorrido por las actualizaciones dinámicas de Liberty. Usará
      code .
     ```
 
-    <kbd><img src="./images/media/image069.png" alt="imagen069"></kbd>
+    <kbd><img src="./../images/media/image069.png" alt="imagen069"></kbd>
 
 2. Se abre Visual Studio Code. Haga clic en **Sí** si se le solicita que confíe en el autor.
 
-    <kbd><img src="./images/media/image070.png" alt="imagen070"></kbd>
+    <kbd><img src="./../images/media/image070.png" alt="imagen070"></kbd>
 
 3. En Visual Studio Code, abra una ventana de terminal
 
-    <kbd><img src="./images/media/image071.png" alt="imagen071"></kbd>
+    <kbd><img src="./../images/media/image071.png" alt="imagen071"></kbd>
 
 4. En la terminal, use el comando tail para mostrar el registro de mensajes de Liberty.
 
@@ -786,35 +786,35 @@ Hagamos un breve recorrido por las actualizaciones dinámicas de Liberty. Usará
      tail -f wlp/usr/servers/defaultServer/logs/messages.log
     ```
 
-    <kbd><img src="./images/media/image072.png" alt="imagen072"></kbd>
+    <kbd><img src="./../images/media/image072.png" alt="imagen072"></kbd>
 
 5. Espere hasta que se haya inicializado la aplicación web
 
-    <kbd><img src="./images/media/image073.png" alt="imagen073"></kbd>
+    <kbd><img src="./../images/media/image073.png" alt="imagen073"></kbd>
 
 6. En Visual Studio Code, navegue a **wlp &gt; usr &gt; servers &gt; defaultServer** y abra el archivo **server.xml** .
 
-    <kbd><img src="./images/media/image074.png" alt="imagen074"></kbd>
+    <kbd><img src="./../images/media/image074.png" alt="imagen074"></kbd>
 
 7. En el archivo **server.xml** , cambie la configuración httpPort del puerto **9080** al puerto **9081** .
 
-    <kbd><img src="./images/media/image075.png" alt="imagen075"></kbd>
+    <kbd><img src="./../images/media/image075.png" alt="imagen075"></kbd>
 
     Puedes ver en la terminal que el cambio se ha recogido y Liberty ahora escucha en el puerto **9081** .
 
-    <kbd><img src="./images/media/image076.png" alt="imagen076"></kbd>
+    <kbd><img src="./../images/media/image076.png" alt="imagen076"></kbd>
 
 8. Cambie la configuración contextRoot de webApplication de **“/simpleweb”** a **“/mysimpleweb”** .
 
-    <kbd><img src="./images/media/image077.png" alt="imagen077"></kbd>
+    <kbd><img src="./../images/media/image077.png" alt="imagen077"></kbd>
 
     En el registro se puede observar que se ha recogido el cambio.
 
-    <kbd><img src="./images/media/image078.png" alt="imagen078"></kbd>
+    <kbd><img src="./../images/media/image078.png" alt="imagen078"></kbd>
 
 9. Cambie al navegador y acceda a la aplicación a través de la URL **localhost:9081/mysimpleweb/helloWorld** .
 
-    <kbd><img src="./images/media/image079.png" alt="imagen079"></kbd>
+    <kbd><img src="./../images/media/image079.png" alt="imagen079"></kbd>
 
     Como has visto, puedes cambiar la configuración de Liberty sin tener que reiniciar el servidor. Analizarás esto con más detalle más adelante en el laboratorio, por ejemplo, cuando actualices dinámicamente el registro. Ahora, detengamos el servidor.
 
@@ -826,7 +826,7 @@ Hagamos un breve recorrido por las actualizaciones dinámicas de Liberty. Usará
     wlp/bin/server stop defaultServer
     ```
 
-    <kbd><img src="./images/media/image080.png" alt="imagen080"></kbd>
+    <kbd><img src="./../images/media/image080.png" alt="imagen080"></kbd>
 
 ### 6.4.2 Crear fragmentos de configuración de Liberty
 
@@ -838,11 +838,11 @@ Ahora modificará el archivo **server.xml** que se ha proporcionado como parte d
 
 1. En Visual Studio Code, abra el archivo **server.xml** si lo cerró anteriormente.
 
-    <kbd><img src="./images/media/image081.png" alt="imagen081"></kbd>
+    <kbd><img src="./../images/media/image081.png" alt="imagen081"></kbd>
 
 2. Eche un vistazo al elemento httpEndpoint.
 
-    <kbd><img src="./images/media/image082.png" alt="imagen082"></kbd>
+    <kbd><img src="./../images/media/image082.png" alt="imagen082"></kbd>
 
     Como se menciona en el comentario, el httpEndpoint no es accesible por defecto desde un cliente remoto. Esto es positivo desde el punto de vista de la seguridad y funciona correctamente si el cliente es local respecto al servidor. Sin embargo, si, por ejemplo, utiliza un balanceador de carga remoto o un servidor HTTP remoto, esto no funcionará. Por lo tanto, es probable que en situaciones en las que desee permitir el acceso a la aplicación desde un cliente remoto, deba agregar un atributo de host. Para ello, utilice el asistente de configuración de Liberty Tools.
 
@@ -852,11 +852,11 @@ Ahora modificará el archivo **server.xml** que se ha proporcionado como parte d
 
     Utilice la tecla de flecha hacia abajo y navegue hasta el atributo **del host** para ver la descripción del atributo.
 
-    <kbd><img src="./images/media/image083.png" alt="imagen083"></kbd>
+    <kbd><img src="./../images/media/image083.png" alt="imagen083"></kbd>
 
 4. Seleccione el host y su configuración debería verse así:
 
-    <kbd><img src="./images/media/image084.png" alt="imagen084"></kbd>
+    <kbd><img src="./../images/media/image084.png" alt="imagen084"></kbd>
 
     Como puede ver, el atributo host tiene como valor predeterminado **localhost** .
 
@@ -880,19 +880,19 @@ En su lugar, utilizará el asistente de configuración de Liberty Tools para com
 
 1. Coloque el cursor en una línea vacía debajo de la sección httpEndpoint, luego ingrese **var** y presione **CTRL+ESPACIO** .
 
-    <kbd><img src="./images/media/image085.png" alt="imagen085"></kbd>
+    <kbd><img src="./../images/media/image085.png" alt="imagen085"></kbd>
 
 2. Seleccione **la variable** y luego ingrese el nombre **"httpEndpoint_port"** .
 
-    <kbd><img src="./images/media/image086.png" alt="imagen086"></kbd>
+    <kbd><img src="./../images/media/image086.png" alt="imagen086"></kbd>
 
 3. Coloque el cursor después de **name="httpEndpoint_port"** , ingrese un **ESPACIO** y presione **CTRL+ESPACIO** .
 
-    <kbd><img src="./images/media/image087.png" alt="imagen087"></kbd>
+    <kbd><img src="./../images/media/image087.png" alt="imagen087"></kbd>
 
 4. Seleccione **defaultValue** e ingrese el valor **9080** .
 
-    <kbd><img src="./images/media/image088.png" alt="imagen088"></kbd>
+    <kbd><img src="./../images/media/image088.png" alt="imagen088"></kbd>
 
 5. Utilice copiar y pegar para crear dos variables adicionales:
 
@@ -901,11 +901,11 @@ En su lugar, utilizará el asistente de configuración de Liberty Tools para com
 
     Su configuración ahora debería verse así:
 
-    <kbd><img src="./images/media/image089.png" alt="imagen089"></kbd>
+    <kbd><img src="./../images/media/image089.png" alt="imagen089"></kbd>
 
 6. Cambie a la sección **httpEndpoint** , elimine del atributo **host** el valor **"localhost"** , ingrese **${ht** y presione **CTRL+ESPACIO** .
 
-    <kbd><img src="./images/media/image090.png" alt="imagen090"></kbd>
+    <kbd><img src="./../images/media/image090.png" alt="imagen090"></kbd>
 
     Como puede ver, se ofrecen los nombres de las variables.
 
@@ -913,13 +913,13 @@ En su lugar, utilizará el asistente de configuración de Liberty Tools para com
 
 7. Seleccione **"httpEndpoint_host"** y luego introduzca **"}"** . Su configuración debería verse así:
 
-    <kbd><img src="./images/media/image090b.png" alt="imagen090b"></kbd>
+    <kbd><img src="./../images/media/image090b.png" alt="imagen090b"></kbd>
 
 8. Realice el mismo tipo de cambio para los atributos **httpPort** y **httpsPort** .
 
     La configuración final de httpEndpoint ahora debería verse así:
 
-    <kbd><img src="./images/media/image091.png" alt="imagen091"></kbd>
+    <kbd><img src="./../images/media/image091.png" alt="imagen091"></kbd>
 
 9. Guarde sus cambios.
 
@@ -963,7 +963,7 @@ En su lugar, utilizará el asistente de configuración de Liberty Tools para com
     wlp/bin/server run defaultServer
     ```
 
-    <kbd><img src="./images/media/image092.png" alt="imagen092"></kbd>
+    <kbd><img src="./../images/media/image092.png" alt="imagen092"></kbd>
 
     Como puede ver, el servidor Liberty se inicia y escucha en el puerto **9080** .
 
@@ -976,7 +976,7 @@ En su lugar, utilizará el asistente de configuración de Liberty Tools para com
     wlp/bin/server run defaultServer
     ```
 
-    <kbd><img src="./images/media/image093.png" alt="imagen093"></kbd>
+    <kbd><img src="./../images/media/image093.png" alt="imagen093"></kbd>
 
     Como puede ver, el servidor Liberty ahora escucha en el puerto **9081** , lo que indica que puede anular desde fuera de Liberty la configuración predeterminada definida en el archivo server.xml de Liberty. En un entorno de Kubernetes, podría usar, por ejemplo, un mapa de configuración para cambiar la configuración.
 
@@ -1000,15 +1000,15 @@ Ahora utilizará **inclusiones** para estructurar la configuración del servidor
      cp wlp/usr/servers/defaultServer/server.xml wlp/usr/servers/defaultServer/application-config.xml
     ```
 
-    <kbd><img src="./images/media/image094.png" alt="imagen094"></kbd>
+    <kbd><img src="./../images/media/image094.png" alt="imagen094"></kbd>
 
 2. Abra el archivo recién creado **application-config.xml** en Visual Studio Code.
 
-    <kbd><img src="./images/media/image095.png" alt="imagen095"></kbd>
+    <kbd><img src="./../images/media/image095.png" alt="imagen095"></kbd>
 
 3. Elimine toda la configuración de la sección del servidor, excepto la definición del elemento **webApplication** . Su **archivo application-config.xml** debería tener este aspecto:
 
-    <kbd><img src="./images/media/image096.png" alt="imagen096"></kbd>
+    <kbd><img src="./../images/media/image096.png" alt="imagen096"></kbd>
 
 4. Guarde los cambios y luego cierre el archivo **application-config.xml** .
 
@@ -1016,23 +1016,23 @@ Ahora utilizará **inclusiones** para estructurar la configuración del servidor
 
     El asistente de configuración de Liberty Tools le muestra los elementos disponibles.
 
-    <kbd><img src="./images/media/image097.png" alt="imagen097"></kbd>
+    <kbd><img src="./../images/media/image097.png" alt="imagen097"></kbd>
 
 6. Seleccione **"Incluir"** y se generará el elemento. Como valor para **la ubicación** , introduzca **"application-config.xml"** .
 
-    <kbd><img src="./images/media/image098.png" alt="imagen098"></kbd>
+    <kbd><img src="./../images/media/image098.png" alt="imagen098"></kbd>
 
 7. Como propietario del archivo server.xml, es posible que desee decidir qué sucede si el archivo que se incluirá no existe o contiene configuraciones conflictivas.
 
     Vaya al final de la instrucción include y presione **CTRL+ESPACIO** . Se mostrarán los atributos disponibles para el elemento include.
 
-    <kbd><img src="./images/media/image099.png" alt="imagen099"></kbd>
+    <kbd><img src="./../images/media/image099.png" alt="imagen099"></kbd>
 
     Como puede ver, puede definir el archivo de inclusión como opcional, por lo que Liberty no generará un error si falta el archivo de inclusión.
 
 8. Haga clic en **Conflicto** para ver los atributos disponibles para esas opciones.
 
-    <kbd><img src="./images/media/image100.png" alt="imagen100"></kbd>
+    <kbd><img src="./../images/media/image100.png" alt="imagen100"></kbd>
 
     Si desea asegurarse de que las configuraciones en server.xml no puedan ser anuladas por los archivos incluidos, seleccione **IGNORAR** ; de lo contrario, utilice **FUSIONAR** o **REEMPLAZAR** .
 
@@ -1042,7 +1042,7 @@ Ahora utilizará **inclusiones** para estructurar la configuración del servidor
      <include location="application-config.xml" onConflict="MERGE"/>
     ```
 
-    <kbd><img src="./images/media/image101.png" alt="imagen101"></kbd>
+    <kbd><img src="./../images/media/image101.png" alt="imagen101"></kbd>
 
     Puedes configurar varios archivos de inclusión; por ejemplo, uno para security-config.xml y otro para la configuración de recursos específicos, como bases de datos o JMS. Ahora, probemos si la **inclusión** funciona.
 
@@ -1056,7 +1056,7 @@ Ahora utilizará **inclusiones** para estructurar la configuración del servidor
 
     Como puedes ver, la **inclusión** se ha encontrado y procesado, por lo que se inicia la aplicación.
 
-    <kbd><img src="./images/media/image102.png" alt="imagen102"></kbd>
+    <kbd><img src="./../images/media/image102.png" alt="imagen102"></kbd>
 
     Mantenga el servidor funcionando como lo necesitamos en la siguiente sección.
 
@@ -1074,11 +1074,11 @@ En este momento, no puede acceder a Liberty mediante HTTPS. Si bien el puerto HT
 
     Alternativamente, puede utilizar el asistente de configuración para habilitarlo.
 
-    <kbd><img src="./images/media/image103.png" alt="imagen103"></kbd>
+    <kbd><img src="./../images/media/image103.png" alt="imagen103"></kbd>
 
 3. Eche un vistazo a los registros y podrá ver que la función aún no está disponible.
 
-    <kbd><img src="./images/media/image104.png" alt="imagen104"></kbd>
+    <kbd><img src="./../images/media/image104.png" alt="imagen104"></kbd>
 
     Esto se debe a que el paquete del servidor Liberty generado por el desarrollador solo incluye las características requeridas (características definidas en el archivo de configuración del servidor). Utilizará la **herramienta Liberty featureUtility** para instalar la característica faltante. Esta característica podría descargarse desde un repositorio local si está configurada; en este caso, la descargará desde un repositorio central de Maven.
 
@@ -1090,7 +1090,7 @@ En este momento, no puede acceder a Liberty mediante HTTPS. Si bien el puerto HT
      wlp/bin/featureUtility installFeature transportSecurity-1.0
     ```
 
-    <kbd><img src="./images/media/image105.png" alt="imagen105"></kbd>
+    <kbd><img src="./../images/media/image105.png" alt="imagen105"></kbd>
 
 5. Luego, inicie nuevamente la instancia de Liberty ejecutando el siguiente comando:
 
@@ -1098,13 +1098,13 @@ En este momento, no puede acceder a Liberty mediante HTTPS. Si bien el puerto HT
      wlp/bin/server run defaultServer
     ```
 
-    <kbd><img src="./images/media/image106.png" alt="imagen106"></kbd>
+    <kbd><img src="./../images/media/image106.png" alt="imagen106"></kbd>
 
     Como puede ver, Liberty creó un certificado y lo colocó en el archivo de clave SSL **"wlp/usr/servers/defaultServer/resources/security/key.p12"** .
 
 6. Liberty usó la variable **keystore_password** para proteger el almacén de claves. Como no se definió un valor para la variable keystore_password, Liberty generó una contraseña y la almacenó en el archivo **server.env** . En Visual Studio, abra el archivo **server.env** para ver la contraseña del almacén de claves. Es probable que su contraseña sea diferente, ya que se generó aleatoriamente.
 
-    <kbd><img src="./images/media/image107.png" alt="imagen107"></kbd>
+    <kbd><img src="./../images/media/image107.png" alt="imagen107"></kbd>
 
     Cierre el archivo **server.env** .
 
@@ -1116,7 +1116,7 @@ En este momento, no puede acceder a Liberty mediante HTTPS. Si bien el puerto HT
 
     El elemento keyStore también le permite especificar una ubicación de almacén de claves diferente y mucho más.
 
-    <kbd><img src="./images/media/image108.png" alt="imagen108"></kbd>
+    <kbd><img src="./../images/media/image108.png" alt="imagen108"></kbd>
 
 8. Revise su configuración en **server.xml** . Debería verse así:
 
@@ -1158,15 +1158,15 @@ En este momento, no puede acceder a Liberty mediante HTTPS. Si bien el puerto HT
 
     Debería recibir una advertencia de seguridad como ésta:
 
-    <kbd><img src="./images/media/image109.png" alt="imagen109"></kbd>
+    <kbd><img src="./../images/media/image109.png" alt="imagen109"></kbd>
 
 10. Haga clic en **Avanzado** , luego desplácese hacia abajo y haga clic en **"Aceptar el riesgo y continuar"** .
 
-    <kbd><img src="./images/media/image110.png" alt="imagen110"></kbd>
+    <kbd><img src="./../images/media/image110.png" alt="imagen110"></kbd>
 
 11. Debería ver la salida de la aplicación web.
 
-    <kbd><img src="./images/media/image111.png" alt="imagen111"></kbd>
+    <kbd><img src="./../images/media/image111.png" alt="imagen111"></kbd>
 
 12. Regrese a Visual Studio Code y detenga la instancia de Liberty en ejecución ingresando **CTRL+C** en la ventana de terminal.
 
@@ -1186,7 +1186,7 @@ En la siguiente sección del laboratorio, reutilizarás los fragmentos de config
      cp ~/Student/ops/test/wlp/usr/servers/defaultServer/apps/simpleweb.war ~/Student/assets
     ```
 
-    <kbd><img src="./images/media/image112a.png" alt="imagen112"></kbd>
+    <kbd><img src="./../images/media/image112a.png" alt="imagen112"></kbd>
 
 2. Verifique que el directorio de recursos contenga el archivo WAR de la aplicación y los archivos de configuración. También contiene el paquete del servidor, pero ya no es necesario.
 
@@ -1194,7 +1194,7 @@ En la siguiente sección del laboratorio, reutilizarás los fragmentos de config
      ls ~/Student/assets
     ```
 
-    <kbd><img src="./images/media/image112b.png" alt="imagen112"></kbd>
+    <kbd><img src="./../images/media/image112b.png" alt="imagen112"></kbd>
 
 3. Si aún no lo ha hecho, salga de **Visual Studio Code** y detenga cualquier instancia de Liberty que esté en ejecución.
 
@@ -1231,7 +1231,7 @@ La mejor práctica para instalar Liberty es crear una instalación mínima usand
      mkdir ~/Student/ops/software
     ```
 
-    <kbd><img src="./images/media/image113.png" alt="imagen113"></kbd>
+    <kbd><img src="./../images/media/image113.png" alt="imagen113"></kbd>
 
 3. Descargue y almacene la imagen del kernel de Liberty.
 
@@ -1239,7 +1239,7 @@ La mejor práctica para instalar Liberty es crear una instalación mínima usand
      wget https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/downloads/wlp/24.0.0.1/wlp-kernel-24.0.0.1.zip -P ~/Student/ops/software
     ```
 
-    <kbd><img src="./images/media/image114.png" alt="imagen114"></kbd>
+    <kbd><img src="./../images/media/image114.png" alt="imagen114"></kbd>
 
 4. Use el comando **ls** para comprobar que la imagen del kernel tiene un tamaño inferior a 17 MB. El espacio total en disco será mayor según las características requeridas de Liberty.
 
@@ -1247,7 +1247,7 @@ La mejor práctica para instalar Liberty es crear una instalación mínima usand
      ls -lrt ~/Student/ops/software/
     ```
 
-    <kbd><img src="./images/media/image115.png" alt="imagen115"></kbd>
+    <kbd><img src="./../images/media/image115.png" alt="imagen115"></kbd>
 
 5. Cree un directorio para el entorno de integración. Este se usará para la instalación de Liberty.
 
@@ -1256,22 +1256,22 @@ La mejor práctica para instalar Liberty es crear una instalación mínima usand
      cd ~/Student/ops/int
     ```
 
-    <kbd><img src="./images/media/image116.png" alt="imagen116"></kbd>
+    <kbd><img src="./../images/media/image116.png" alt="imagen116"></kbd>
 
 6. Utilice el comando descomprimir para extraer la imagen.
 
     ```
-     unzip ../software/wlp-kernel-24.0.0.1.zip
+     unzip ../../software/wlp-kernel-24.0.0.1.zip
     ```
 
-    <kbd><img src="./images/media/image117.png" alt="imagen117"></kbd>
+    <kbd><img src="./../images/media/image117.png" alt="imagen117"></kbd>
 
 <table>
 <tbody>
 <tr class="odd">
-<td><kbd><img src="./images/media/info.png" alt="información de inicio de sesión"></kbd></td>
+<td><kbd><img src="./../images/media/info.png" alt="información de inicio de sesión"></kbd></td>
 <td>
-<p>En la página de soporte de IBM, además de los paquetes de conveniencia, como el paquete del kernel de Liberty, también encontrará archivos de Liberty para Liberty Core, Liberty Base o Liberty ND. Para instalar un archivo de este tipo, utilice un comando como: <strong>"java -jar ../wlp-base-all-24.0.0.1.jar --acceptLicense".</strong>  </p>
+<p>En la página de soporte de IBM, además de los paquetes de conveniencia, como el paquete del kernel de Liberty, también encontrará archivos de Liberty para Liberty Core, Liberty Base o Liberty ND. Para instalar un archivo de este tipo, utilice un comando como: <strong>"java -jar ../../wlp-base-all-24.0.0.1.jar --acceptLicense".</strong>  </p>
 </td>
 </tr>
 </tbody>
@@ -1283,7 +1283,7 @@ La mejor práctica para instalar Liberty es crear una instalación mínima usand
      wlp/bin/productInfo version
     ```
 
-    <kbd><img src="./images/media/image118.png" alt="imagen118"></kbd>
+    <kbd><img src="./../images/media/image118.png" alt="imagen118"></kbd>
 
     Como puede ver, este es un paquete ILAN que se puede utilizar tanto para evaluación como para producción.
 
@@ -1293,7 +1293,7 @@ La mejor práctica para instalar Liberty es crear una instalación mínima usand
      wlp/bin/productInfo featureInfo
     ```
 
-    <kbd><img src="./images/media/image119.png" alt="imagen119"></kbd>
+    <kbd><img src="./../images/media/image119.png" alt="imagen119"></kbd>
 
     Como puedes ver, no se incluye ninguna característica en la imagen del kernel.
 
@@ -1302,7 +1302,7 @@ La mejor práctica para instalar Liberty es crear una instalación mínima usand
 <table>
 <tbody>
 <tr class="odd">
-<td><kbd><img src="./images/media/info.png" alt="información de inicio de sesión"></kbd></td>
+<td><kbd><img src="./../images/media/info.png" alt="información de inicio de sesión"></kbd></td>
 <td>
 <p>Como has visto, la instalación de Liberty es básicamente una descompresión.<br> Si desea actualizar Liberty más adelante, puede aplicar un archivo jar o simplemente reemplazar los binarios.</p>
 </td>
@@ -1333,7 +1333,7 @@ El comando **de creación del servidor** crea, por defecto, el directorio de usu
      cat ~/Student/ops/int/wlp/etc/server.env
     ```
 
-    <kbd><img src="./images/media/image120.png" alt="imagen120"></kbd>
+    <kbd><img src="./../images/media/image120.png" alt="imagen120"></kbd>
 
 2. Ejecute los siguientes comandos para crear un nuevo servidor llamado **"myServer"** :
 
@@ -1341,7 +1341,7 @@ El comando **de creación del servidor** crea, por defecto, el directorio de usu
      wlp/bin/server create myServer
     ```
 
-    <kbd><img src="./images/media/image121.png" alt="imagen121"></kbd>
+    <kbd><img src="./../images/media/image121.png" alt="imagen121"></kbd>
 
     El nuevo servidor se crea en el siguiente directorio: **wlp_usr/servers/myServer** .
 
@@ -1351,7 +1351,7 @@ El comando **de creación del servidor** crea, por defecto, el directorio de usu
      wlp/bin/server list
     ```
 
-    <kbd><img src="./images/media/image122.png" alt="imagen122"></kbd>
+    <kbd><img src="./../images/media/image122.png" alt="imagen122"></kbd>
 
 4. Ejecute el siguiente comando para enumerar los archivos y directorios que se han creado para myServer:
 
@@ -1359,7 +1359,7 @@ El comando **de creación del servidor** crea, por defecto, el directorio de usu
      ls -lrt wlp_usr/servers/myServer
     ```
 
-    <kbd><img src="./images/media/image123.png" alt="imagen123"></kbd>
+    <kbd><img src="./../images/media/image123.png" alt="imagen123"></kbd>
 
 5. Reemplace la configuración de Liberty generada con la configuración que almacenó en el directorio de activos.
 
@@ -1368,12 +1368,12 @@ El comando **de creación del servidor** crea, por defecto, el directorio de usu
      ls -lrt wlp_usr/servers/myServer
     ```
 
-    <kbd><img src="./images/media/image124.png" alt="imagen124"></kbd>
+    <kbd><img src="./../images/media/image124.png" alt="imagen124"></kbd>
 
 <table>
     <tbody>
     <tr class="odd">
-    <td><kbd><img src="./images/media/info.png" alt="información de inicio de sesión"></kbd></td>
+    <td><kbd><img src="./../images/media/info.png" alt="información de inicio de sesión"></kbd></td>
     <td>
     <p>En la configuración de Liberty, ahora tiene un archivo <strong>server.env</strong> en dos niveles:<br> - en <strong>el nivel de ejecución</strong> en <strong>${wlp.install.dir}/etc/server.env</strong> y<br> - en <strong>el nivel del servidor</strong> en <strong>${server.config.dir}/server.env</strong> .<br> Si ambos archivos están presentes, el contenido de los dos archivos se fusiona; los valores en el archivo de nivel de servidor tienen prioridad sobre los valores en el archivo de nivel de ejecución.     </p>
 </td>
@@ -1387,12 +1387,12 @@ El comando **de creación del servidor** crea, por defecto, el directorio de usu
      cat wlp_usr/servers/myServer/server.xml | grep http
     ```
 
-    <kbd><img src="./images/media/image125.png" alt="imagen125"></kbd>
+    <kbd><img src="./../images/media/image125.png" alt="imagen125"></kbd>
 
 <table>
     <tbody>
     <tr class="odd">
-    <td><kbd><img src="./images/media/info.png" alt="información de inicio de sesión"></kbd></td>
+    <td><kbd><img src="./../images/media/info.png" alt="información de inicio de sesión"></kbd></td>
     <td>
     <p>Si desea cambiar esos valores de puerto, puede definirlos en el archivo <strong>server.env</strong> o en el archivo <strong>bootstrap.properties,</strong> por ejemplo.<br> Alternativamente, puede definir la variable relacionada en el nivel del sistema operativo.      </p>
 </td>
@@ -1410,7 +1410,7 @@ Ha instalado el paquete del kernel de Liberty, que no contiene ninguna caracter�
      wlp/bin/featureUtility installServerFeatures myServer
     ```
 
-    <kbd><img src="./images/media/image126.png" alt="imagen126"></kbd>
+    <kbd><img src="./../images/media/image126.png" alt="imagen126"></kbd>
 
     Como puede ver, el comando detectó que faltaban las funciones **servlet-6.0** y **transportSecurity-1.0** . También descarga la función **ssl-1.0,** ya que **transportSecurity-1.0** depende de ella.
 
@@ -1420,7 +1420,7 @@ Ha instalado el paquete del kernel de Liberty, que no contiene ninguna caracter�
      wlp/bin/productInfo featureInfo
     ```
 
-    <kbd><img src="./images/media/image127.png" alt="imagen127"></kbd>
+    <kbd><img src="./../images/media/image127.png" alt="imagen127"></kbd>
 
 ### 6.5.5 Utilice su propio almacén de claves
 
@@ -1432,7 +1432,7 @@ Si no crea un almacén de claves, pero habilita SSL, Liberty creará uno con una
      wlp/bin/securityUtility createSSLCertificate --server=myServer --password=mySecret
     ```
 
-    <kbd><img src="./images/media/image128.png" alt="imagen128"></kbd>
+    <kbd><img src="./../images/media/image128.png" alt="imagen128"></kbd>
 
     Como puede ver, el comando utiliza el nombre de host y el nombre del servidor como subjectDN y codifica la contraseña mediante xor. El comando también permite usar codificación o cifrado AES (consulte https://www.ibm.com/docs/en/was-liberty/base?topic=applications-securityutility-command).
 
@@ -1443,7 +1443,7 @@ Si no crea un almacén de claves, pero habilita SSL, Liberty creará uno con una
      cat wlp_usr/servers/myServer/server.xml | grep keystore
     ```
 
-    <kbd><img src="./images/media/image129.png" alt="imagen129"></kbd>
+    <kbd><img src="./../images/media/image129.png" alt="imagen129"></kbd>
 
 3. La contraseña del almacén de claves se ha configurado en el archivo server.env. Utilice el siguiente comando para revisar la configuración:
 
@@ -1451,7 +1451,7 @@ Si no crea un almacén de claves, pero habilita SSL, Liberty creará uno con una
      cat wlp_usr/servers/myServer/server.env;echo
     ```
 
-    <kbd><img src="./images/media/image130.png" alt="imagen130"></kbd>
+    <kbd><img src="./../images/media/image130.png" alt="imagen130"></kbd>
 
     Como se esperaba, la contraseña utilizada para el almacén de claves no coincide con la de **server.env** y debe actualizarse.
 
@@ -1462,12 +1462,12 @@ Si no crea un almacén de claves, pero habilita SSL, Liberty creará uno con una
      cat wlp_usr/servers/myServer/server.env
     ```
 
-    <kbd><img src="./images/media/image131.png" alt="imagen131"></kbd>
+    <kbd><img src="./../images/media/image131.png" alt="imagen131"></kbd>
 
 <table>
     <tbody>
     <tr class="odd">
-    <td><kbd><img src="./images/media/info.png" alt="información de inicio de sesión"></kbd></td>
+    <td><kbd><img src="./../images/media/info.png" alt="información de inicio de sesión"></kbd></td>
     <td>
     <p>La contraseña del almacén de claves codificada no es única, por lo que es posible que tenga una contraseña diferente a la de la captura de pantalla anterior.<br> Pero siempre que utilice la misma contraseña para codificar, todas las diferentes cadenas resultantes serán válidas.      </p>
 </td>
@@ -1484,13 +1484,13 @@ Si no crea un almacén de claves, pero habilita SSL, Liberty creará uno con una
      tail -f wlp_usr/servers/myServer/logs/messages.log
     ```
 
-    <kbd><img src="./images/media/image132.png" alt="imagen132"></kbd>
+    <kbd><img src="./../images/media/image132.png" alt="imagen132"></kbd>
 
     Como puede ver, el servidor Liberty está en ejecución y escucha en los puertos **9080** y **9443.** También puede ver que se queja de la **falta del archivo de inclusión application-config.xml** . Lo solucionará más adelante.
 
 2. Verifique que el servidor sea accesible mediante HTTPS. Abra el navegador y acceda a la aplicación web mediante la URL **https://localhost:9443** . Como antes, recibirá una advertencia indicando que su conexión no es segura. Haga clic en **"Avanzado"** , desplácese hacia abajo y haga clic en **"Aceptar el riesgo y continuar"** . Debería poder acceder a la aplicación.
 
-    <kbd><img src="./images/media/image133.png" alt="imagen133"></kbd>
+    <kbd><img src="./../images/media/image133.png" alt="imagen133"></kbd>
 
 3. Regrese a la ventana de terminal y presione **CTRL+C** en la ventana de terminal para detener el comando tail.
 
@@ -1515,7 +1515,7 @@ Primero, simplemente copie el módulo WAR de la aplicación en el directorio **"
 
 2. **Haga clic derecho** en **Terminal** y seleccione **Nueva ventana** para abrir una segunda ventana de terminal.
 
-    <kbd><img src="./images/media/image134.png" alt="imagen134"></kbd>
+    <kbd><img src="./../images/media/image134.png" alt="imagen134"></kbd>
 
 3. En la nueva ventana de Terminal, navegue hasta el directorio int:
 
@@ -1529,21 +1529,21 @@ Primero, simplemente copie el módulo WAR de la aplicación en el directorio **"
      cp ~/Student/assets/simpleweb.war wlp_usr/servers/myServer/dropins
     ```
 
-    <kbd><img src="./images/media/image135.png" alt="imagen135"></kbd>
+    <kbd><img src="./../images/media/image135.png" alt="imagen135"></kbd>
 
 5. Acceda a la ventana de terminal donde se ejecuta el comando tail. Podrá ver mensajes que indican que la aplicación se ha implementado, que la aplicación simpleweb se ha iniciado y que está disponible en **http://rhel9-base.gym..lan:9080/simpleweb/** .
 
     Tenga en cuenta que Liberty definió la raíz del contexto en función del nombre del archivo WAR como **"/simpleweb"** .
 
-    <kbd><img src="./images/media/image136.png" alt="imagen136"></kbd>
+    <kbd><img src="./../images/media/image136.png" alt="imagen136"></kbd>
 
 6. Verifique que la aplicación sea accesible abriendo un navegador en: **http://localhost:9080/simpleweb/helloWorld**
 
-    <kbd><img src="./images/media/image137.png" alt="imagen137"></kbd>
+    <kbd><img src="./../images/media/image137.png" alt="imagen137"></kbd>
 
 7. En la ventana de terminal donde se ejecuta tail, puedes ver que se ha accedido a la aplicación.
 
-    <kbd><img src="./images/media/image138.png" alt="imagen138"></kbd>
+    <kbd><img src="./../images/media/image138.png" alt="imagen138"></kbd>
 
 8. Regrese a la terminal donde ingresó el comando de copia y elimine la aplicación implementada del directorio dropins usando el siguiente comando:
 
@@ -1553,7 +1553,7 @@ Primero, simplemente copie el módulo WAR de la aplicación en el directorio **"
 
 9. Regresa a la ventana de terminal donde se ejecuta tail. Puedes ver que la aplicación se ha eliminado.
 
-    <kbd><img src="./images/media/image139.png" alt="imagen139"></kbd>
+    <kbd><img src="./../images/media/image139.png" alt="imagen139"></kbd>
 
     Si bien el directorio dropins se puede usar para aplicaciones que no requieren configuración adicional, implementar la aplicación añadiéndola a la configuración del servidor Liberty ofrece la libertad de configurar el servidor Liberty según los requisitos de configuración de la aplicación. Ahora implementará la aplicación simpleweb añadiéndola a la configuración del servidor Liberty.
 
@@ -1566,7 +1566,7 @@ Primero, simplemente copie el módulo WAR de la aplicación en el directorio **"
     ls -lrt wlp_usr/servers/myServer/apps/*.war
     ```
 
-    <kbd><img src="./images/media/image140.png" alt="imagen140"></kbd>
+    <kbd><img src="./../images/media/image140.png" alt="imagen140"></kbd>
 
 11. Para definir la aplicación en el archivo de configuración de Liberty, eche un vistazo a la configuración de la aplicación que se ha proporcionado como fragmento.
 
@@ -1574,7 +1574,7 @@ Primero, simplemente copie el módulo WAR de la aplicación en el directorio **"
     cat ~/Student/assets/application-config.xml
     ```
 
-    <kbd><img src="./images/media/image141.png" alt="imagen141"></kbd>
+    <kbd><img src="./../images/media/image141.png" alt="imagen141"></kbd>
 
     Como puede ver, se ha definido una raíz de contexto diferente.
 
@@ -1584,7 +1584,7 @@ Primero, simplemente copie el módulo WAR de la aplicación en el directorio **"
     cat wlp_usr/servers/myServer/server.xml | grep include
     ```
 
-    <kbd><img src="./images/media/image142.png" alt="imagen142"></kbd>
+    <kbd><img src="./../images/media/image142.png" alt="imagen142"></kbd>
 
 13. Copie el archivo application-config.xml en el directorio del servidor.
 
@@ -1593,15 +1593,15 @@ Primero, simplemente copie el módulo WAR de la aplicación en el directorio **"
     ls -lrt wlp_usr/servers/myServer
     ```
 
-    <kbd><img src="./images/media/image143.png" alt="imagen143"></kbd>
+    <kbd><img src="./../images/media/image143.png" alt="imagen143"></kbd>
 
 14. Regresa a la ventana de terminal que ejecuta tail. Puedes ver que la aplicación **simpleweb** se implementa, esta vez con el contexto raíz **mysimpleweb** .
 
-    <kbd><img src="./images/media/image144.png" alt="imagen144"></kbd>
+    <kbd><img src="./../images/media/image144.png" alt="imagen144"></kbd>
 
 15. Finalmente prueba la aplicación en el navegador a través de la URL **http://localhost:9080/mysimpleweb/helloWorld** .
 
-    <kbd><img src="./images/media/image145.png" alt="imagen145"></kbd>
+    <kbd><img src="./../images/media/image145.png" alt="imagen145"></kbd>
 
 **Ha implementado exitosamente la aplicación web en Liberty, primero a través del directorio dropins, y luego agregándola al archivo server.xml a través de include.**
 
@@ -1615,7 +1615,7 @@ Hasta ahora, ha utilizado el concepto **de inclusión** para ampliar el archivo 
      mkdir -p wlp_usr/servers/myServer/configDropins/overrides
     ```
 
-    <kbd><img src="./images/media/image146.png" alt="imagen146"></kbd>
+    <kbd><img src="./../images/media/image146.png" alt="imagen146"></kbd>
 
     **Agregar salida de registro INFO a la consola**
 
@@ -1627,7 +1627,7 @@ Hasta ahora, ha utilizado el concepto **de inclusión** para ampliar el archivo 
 <table>
     <tbody>
     <tr class="odd">
-    <td><kbd><img src="./images/media/info.png" alt="información de inicio de sesión"></kbd></td>
+    <td><kbd><img src="./../images/media/info.png" alt="información de inicio de sesión"></kbd></td>
     <td>
     <p>Nota:<br> También es posible configurar las opciones de registro predeterminadas en el archivo bootstrap.properties.<br> Si las opciones de registro se configuran en el archivo bootstrap.properties, las opciones de registro tendrán efecto muy temprano en el inicio del servidor.<br> Por lo tanto, puede ser útil para depurar problemas de inicialización del servidor.     </p>
 </td>
@@ -1643,7 +1643,7 @@ Hasta ahora, ha utilizado el concepto **de inclusión** para ampliar el archivo 
      tail -f wlp_usr/servers/myServer/logs/console.log
     ```
 
-    <kbd><img src="./images/media/image147.png" alt="imagen147"></kbd>
+    <kbd><img src="./../images/media/image147.png" alt="imagen147"></kbd>
 
 3. Acceda a la segunda ventana de terminal. Cree un archivo de configuración del servidor para cambiar el nivel de registro de la consola a INFO mediante el siguiente comando:
 
@@ -1655,11 +1655,11 @@ Hasta ahora, ha utilizado el concepto **de inclusión** para ampliar el archivo 
      ' > wlp_usr/servers/myServer/configDropins/overrides/loglevel-config.xml
     ```
 
-    <kbd><img src="./images/media/image148.png" alt="imagen148"></kbd>
+    <kbd><img src="./../images/media/image148.png" alt="imagen148"></kbd>
 
 4. Cambie a la ventana de terminal que ejecuta tail para verificar que se haya detectado el nuevo archivo.
 
-    <kbd><img src="./images/media/image149.png" alt="imagen149"></kbd>
+    <kbd><img src="./../images/media/image149.png" alt="imagen149"></kbd>
 
     Verificará que los mensajes de nivel de registro **INFO** ahora se registrarán durante la configuración del seguimiento.
 
@@ -1680,11 +1680,11 @@ Hasta ahora, ha utilizado el concepto **de inclusión** para ampliar el archivo 
      ' > wlp_usr/servers/myServer/configDropins/overrides/loglevel-config.xml
     ```
 
-    <kbd><img src="./images/media/image150.png" alt="imagen150"></kbd>
+    <kbd><img src="./../images/media/image150.png" alt="imagen150"></kbd>
 
 6. Cambie a la ventana de terminal que ejecuta tail para verificar que se haya detectado el nuevo archivo.
 
-    <kbd><img src="./images/media/image151.png" alt="imagen151"></kbd>
+    <kbd><img src="./../images/media/image151.png" alt="imagen151"></kbd>
 
     Como puede ver, ahora se muestran mensajes de nivel de registro **INFO,** lo que significa que se ha detectado el cambio de consoleLogLevel.<br> El mensaje indica, como se esperaba, que el nivel de seguimiento se ha establecido en “webcontainer=all”.
 
@@ -1694,7 +1694,7 @@ Hasta ahora, ha utilizado el concepto **de inclusión** para ampliar el archivo 
      ls -lrt wlp_usr/servers/myServer/logs
     ```
 
-    <kbd><img src="./images/media/image152.png" alt="imagen152"></kbd>
+    <kbd><img src="./../images/media/image152.png" alt="imagen152"></kbd>
 
 8. Elimine el archivo para restablecer el nivel de seguimiento al valor predeterminado.
 
@@ -1704,7 +1704,7 @@ Hasta ahora, ha utilizado el concepto **de inclusión** para ampliar el archivo 
 
 9. Cambie a la ventana de terminal que ejecuta tail para verificar que se haya detectado el nuevo archivo.
 
-    <kbd><img src="./images/media/image153.png" alt="imagen153"></kbd>
+    <kbd><img src="./../images/media/image153.png" alt="imagen153"></kbd>
 
     Como puede ver, la especificación de seguimiento se ha cambiado nuevamente a **"*=info"** .
 
@@ -1739,7 +1739,7 @@ Hasta ahora, ha utilizado el concepto **de inclusión** para ampliar el archivo 
     cat wlp_usr/servers/myServer/bootstrap.properties
     ```
 
-    <kbd><img src="./images/media/image154.png" alt="imagen154"></kbd>
+    <kbd><img src="./../images/media/image154.png" alt="imagen154"></kbd>
 
 14. Inicie el servidor a través de **la ejecución del servidor** y podrá ver que el formato de registro se ha establecido en JSON.
 
@@ -1747,7 +1747,7 @@ Hasta ahora, ha utilizado el concepto **de inclusión** para ampliar el archivo 
     wlp/bin/server run myServer
     ```
 
-    <kbd><img src="./images/media/image155.png" alt="imagen155"></kbd>
+    <kbd><img src="./../images/media/image155.png" alt="imagen155"></kbd>
 
 15. En la ventana del terminal, presione **CTRL+C** para detener el servidor.
 
@@ -1758,7 +1758,7 @@ Hasta ahora, ha utilizado el concepto **de inclusión** para ampliar el archivo 
     wlp/bin/server run myServer
     ```
 
-    <kbd><img src="./images/media/image156.png" alt="imagen156"></kbd>
+    <kbd><img src="./../images/media/image156.png" alt="imagen156"></kbd>
 
 17. En la terminal, presione **CTRL+C** para detener el servidor.
 
@@ -1776,7 +1776,7 @@ Si utiliza varias inclusiones o dropins de configuración, podría necesitar rev
      wlp/bin/securityUtility encode --encoding=aes LibertyIsGreat
     ```
 
-    <kbd><img src="./images/media/image157.png" alt="imagen157"></kbd>
+    <kbd><img src="./../images/media/image157.png" alt="imagen157"></kbd>
 
     Como antes, la contraseña codificada no es única, por lo que el resultado probablemente será diferente al anterior. Sin embargo, ambos son válidos.
 
@@ -1795,7 +1795,7 @@ Si utiliza varias inclusiones o dropins de configuración, podría necesitar rev
      ' > wlp_usr/servers/myServer/configDropins/overrides/rest-config.xml
     ```
 
-    <kbd><img src="./images/media/image158.png" alt="imagen158"></kbd>
+    <kbd><img src="./../images/media/image158.png" alt="imagen158"></kbd>
 
     b. Como la función restConnector aún no está instalada, abra una ventana de terminal para instalar las funciones faltantes mediante el comando:
 
@@ -1803,7 +1803,7 @@ Si utiliza varias inclusiones o dropins de configuración, podría necesitar rev
      wlp/bin/featureUtility installServerFeatures myServer
     ```
 
-    <kbd><img src="./images/media/image159.png" alt="imagen159"></kbd>
+    <kbd><img src="./../images/media/image159.png" alt="imagen159"></kbd>
 
 3. Inicie la instancia de Liberty usando el comando:
 
@@ -1813,19 +1813,19 @@ Si utiliza varias inclusiones o dropins de configuración, podría necesitar rev
 
 4. Desde una ventana del navegador, acceda a las API REST de Liberty a través de la URL **https://localhost:9443/ibm/api/config** .<br> Introduzca nombre de usuario/contraseña como: **admin** / **LibertyIsGreat** .
 
-    <kbd><img src="./images/media/image160.png" alt="imagen160"></kbd>
+    <kbd><img src="./../images/media/image160.png" alt="imagen160"></kbd>
 
 5. Si se te solicita, no guardes la contraseña en el navegador. Tu navegador debería mostrar algo como esto:
 
-    <kbd><img src="./images/media/image161.png" alt="imagen161"></kbd>
+    <kbd><img src="./../images/media/image161.png" alt="imagen161"></kbd>
 
 6. En la ventana del navegador, presione **Ctrl+F** e introduzca **"webapp"** para buscar "webapp". Debería encontrar la configuración correspondiente.
 
-    <kbd><img src="./images/media/image162.png" alt="imagen162"></kbd>
+    <kbd><img src="./../images/media/image162.png" alt="imagen162"></kbd>
 
 7. Busque **registro** y obtendrá todos los atributos utilizados actualmente para el registro.
 
-    <kbd><img src="./images/media/image163.png" alt="imagen163"></kbd>
+    <kbd><img src="./../images/media/image163.png" alt="imagen163"></kbd>
 
 8. Finalmente, detenga el servidor y elimine la configuración de restConnector.
 
@@ -1846,7 +1846,7 @@ El **Centro de Administración** de Liberty permite supervisar el estado del ser
          wlp/bin/securityUtility encode --encoding=xor Liberty4Admins
     ```
 
-    <kbd><img src="./images/media/image164.png" alt="imagen164"></kbd>
+    <kbd><img src="./../images/media/image164.png" alt="imagen164"></kbd>
 
 2. Crea una contraseña como **Liberty4Readers** para el segundo usuario.
 
@@ -1854,7 +1854,7 @@ El **Centro de Administración** de Liberty permite supervisar el estado del ser
          wlp/bin/securityUtility encode --encoding=xor Liberty4Readers
     ```
 
-    <kbd><img src="./images/media/image165.png" alt="imagen165"></kbd>
+    <kbd><img src="./../images/media/image165.png" alt="imagen165"></kbd>
 
 3. Ejecute el siguiente comando para configurar el AdminCenter con los dos usuarios utilizando las contraseñas generadas anteriormente.
 
@@ -1881,7 +1881,7 @@ El **Centro de Administración** de Liberty permite supervisar el estado del ser
      ' > wlp_usr/servers/myServer/configDropins/overrides/adminCenter-config.xml
     ```
 
-    <kbd><img src="./images/media/image166.png" alt="imagen166"></kbd>
+    <kbd><img src="./../images/media/image166.png" alt="imagen166"></kbd>
 
 4. Como la función AdminCenter no está instalada todavía, cambie a una ventana de terminal para instalar la función mediante el comando:
 
@@ -1889,7 +1889,7 @@ El **Centro de Administración** de Liberty permite supervisar el estado del ser
      wlp/bin/featureUtility installServerFeatures myServer
     ```
 
-    <kbd><img src="./images/media/image167.png" alt="imagen167"></kbd>
+    <kbd><img src="./../images/media/image167.png" alt="imagen167"></kbd>
 
 5. Inicie el servidor y eche un vistazo al registro:
 
@@ -1898,55 +1898,55 @@ El **Centro de Administración** de Liberty permite supervisar el estado del ser
      tail -f wlp_usr/servers/myServer/logs/messages.log
     ```
 
-    <kbd><img src="./images/media/image168.png" alt="imagen168"></kbd>
+    <kbd><img src="./../images/media/image168.png" alt="imagen168"></kbd>
 
     Como puedes ver, se ha habilitado la función AdminCenter **adminCenter-1.0** .
 
 6. Acceda al Centro de administración de Liberty a través de la URL **https://localhost:9443/adminCenter** , luego ingrese las credenciales para el usuario administrador ( **admin** / **Liberty4Admins** ) y presione **Enviar** .
 
-    <kbd></kbd>![imagen169](./images/media/image169.png) Se muestra la caja de herramientas del Centro de administración.
+    <kbd></kbd>![imagen169](./../images/media/image169.png) Se muestra la caja de herramientas del Centro de administración.
 
 7. Haga clic en **Explorar** para explorar el estado de Liberty, las aplicaciones, así como los datos de monitoreo y la configuración.
 
-    <kbd><img src="./images/media/image170.png" alt="imagen170"></kbd>
+    <kbd><img src="./../images/media/image170.png" alt="imagen170"></kbd>
 
 8. En la pestaña **Descripción general** eche un vistazo a los servidores y aplicaciones que se están ejecutando.
 
-    <kbd><img src="./images/media/image171.png" alt="imagen171"></kbd>
+    <kbd><img src="./../images/media/image171.png" alt="imagen171"></kbd>
 
     Verías más de un servidor si se hubiera definido un colectivo.
 
 9. En la pestaña **Aplicaciones,** puedes ver las aplicaciones en ejecución. Como usuario con permisos de administrador, puedes usar el menú para iniciar, detener o reiniciar una aplicación.
 
-    <kbd><img src="./images/media/image172.png" alt="imagen172"></kbd>
+    <kbd><img src="./../images/media/image172.png" alt="imagen172"></kbd>
 
 10. En la pestaña **Montor** , puedes ver datos básicos de rendimiento.
 
-    <kbd><img src="./images/media/image173.png" alt="imagen173"></kbd>
+    <kbd><img src="./../images/media/image173.png" alt="imagen173"></kbd>
 
     Como puede ver aquí, el valor máximo de memoria de montón usada es superior a 1,9 MB, lo que indica que no se ha definido el montón máximo. Esto se modificará en la siguiente sección del laboratorio.
 
 11. En la pestaña **Configurar** , puedes ver la configuración actual.
 
-    <kbd><img src="./images/media/image174.png" alt="imagen174"></kbd>
+    <kbd><img src="./../images/media/image174.png" alt="imagen174"></kbd>
 
     Verá una advertencia que indica que el acceso remoto a archivos no está configurado. Puede ignorarla, ya que no configurará Liberty a través de AdminCenter.<br> Pero puedes hacer clic en el enlace para ver la configuración en la vista de diseño y fuente.
 
 12. Seleccione para cerrar sesión como administrador.
 
-    <kbd><img src="./images/media/image175.png" alt="imagen175"></kbd>
+    <kbd><img src="./../images/media/image175.png" alt="imagen175"></kbd>
 
 13. Inicie sesión como usuario **lector** con contraseña **Liberty4Readers** .
 
-    <kbd><img src="./images/media/image176.png" alt="imagen176"></kbd>
+    <kbd><img src="./../images/media/image176.png" alt="imagen176"></kbd>
 
 14. Haz clic en **Explorar** y luego selecciona la pestaña **Aplicaciones** . Intenta hacer clic en el icono junto a la aplicación **simpleweb** y verás que no tienes autorización para iniciar ni detener ninguna aplicación.
 
-    <kbd><img src="./images/media/image177.png" alt="imagen177"></kbd>
+    <kbd><img src="./../images/media/image177.png" alt="imagen177"></kbd>
 
 15. Seleccione para cerrar sesión como lector.
 
-    <kbd><img src="./images/media/image178.png" alt="imagen178"></kbd>
+    <kbd><img src="./../images/media/image178.png" alt="imagen178"></kbd>
 
 16. En la ventana del terminal, presione **CRTL+C** para detener el comando tail.
 
@@ -1970,7 +1970,7 @@ Los argumentos genéricos de la JVM se utilizan para configurar y ajustar su eje
      cat wlp_usr/servers/myServer/jvm.options
     ```
 
-    <kbd><img src="./images/media/image179.png" alt="imagen179"></kbd>
+    <kbd><img src="./../images/media/image179.png" alt="imagen179"></kbd>
 
 2. Inicie el servidor con las opciones JVM actualizadas.
 
@@ -1980,11 +1980,11 @@ Los argumentos genéricos de la JVM se utilizan para configurar y ajustar su eje
 
 3. Acceda de nuevo al Centro de Administración de Liberty a través de la URL **https://localhost:9443/adminCenter** . Inicie sesión como usuario reader y con la contraseña Liberty4Readers.
 
-    <kbd><img src="./images/media/image176.png" alt="imagen176"></kbd>
+    <kbd><img src="./../images/media/image176.png" alt="imagen176"></kbd>
 
 4. Haga clic en **Explorar** y luego seleccione **Monitor** . Observe el panel de control y verá que la memoria máxima del montón usado ahora es de 500 MB, según lo definido en jvm.options.
 
-    <kbd><img src="./images/media/image180.png" alt="imagen180"></kbd>
+    <kbd><img src="./../images/media/image180.png" alt="imagen180"></kbd>
 
 5. Cerrar sesión en el centro de administración.
 
