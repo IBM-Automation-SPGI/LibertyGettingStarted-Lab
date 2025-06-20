@@ -2,7 +2,7 @@
 
 ## Recopilación de datos, evaluaciones y aceleradores de implementación
 
-![bandera](./../../../images/media/OpenLiberty.png)
+![bandera](./../images/media/OpenLiberty.png)
 
 **Última actualización:** marzo de 2024
 
@@ -100,7 +100,7 @@ De lo contrario, deberá reservar un entorno para el laboratorio. Puede obtenerl
 
 El entorno de laboratorio contiene una (1) máquina virtual Linux, denominada Workstation.
 
-<kbd><img src="./../../../images/media/workstation.png" alt=""></kbd>
+<kbd><img src="./../images/media/workstation.png" alt=""></kbd>
 
 <br>
 
