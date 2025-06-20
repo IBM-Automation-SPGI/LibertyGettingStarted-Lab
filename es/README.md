@@ -1261,7 +1261,7 @@ La mejor práctica para instalar Liberty es crear una instalación mínima usand
 6. Utilice el comando descomprimir para extraer la imagen.
 
     ```
-     unzip ../../software/wlp-kernel-24.0.0.1.zip
+     unzip ../software/wlp-kernel-24.0.0.1.zip
     ```
 
     <kbd><img src="./../images/media/image117.png" alt="imagen117"></kbd>
@@ -1271,7 +1271,7 @@ La mejor práctica para instalar Liberty es crear una instalación mínima usand
 <tr class="odd">
 <td><kbd><img src="./../images/media/info.png" alt="información de inicio de sesión"></kbd></td>
 <td>
-<p>En la página de soporte de IBM, además de los paquetes de conveniencia, como el paquete del kernel de Liberty, también encontrará archivos de Liberty para Liberty Core, Liberty Base o Liberty ND. Para instalar un archivo de este tipo, utilice un comando como: <strong>"java -jar ../../wlp-base-all-24.0.0.1.jar --acceptLicense".</strong>  </p>
+<p>En la página de soporte de IBM, además de los paquetes de conveniencia, como el paquete del kernel de Liberty, también encontrará archivos de Liberty para Liberty Core, Liberty Base o Liberty ND. Para instalar un archivo de este tipo, utilice un comando como: <strong>"java -jar ../wlp-base-all-24.0.0.1.jar --acceptLicense".</strong>  </p>
 </td>
 </tr>
 </tbody>
