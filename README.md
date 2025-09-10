@@ -1,6 +1,5 @@
 # Liberty Getting Started
 
-## data collection, assessments, & deployment accelerators
 
 ![banner](./images/media/OpenLiberty.png) 
 
@@ -95,12 +94,15 @@ lab:
 
 
 ## 4. Accessing the environment
+<details>
+<summary>Details how to access the environment</summary>
+
 
 If you are doing this lab as part of an instructor led workshop (virtual or face to face), an environment has already been provisioned for you. The instructor will provide the details for accessing the lab environment.
 
 Otherwise, you will need to reserve an environment for the lab. You can obtain one here. Follow the on-screen instructions for the “**Reserve now**” option.
 
-<https://TBD-to-the-reservation-link>
+<https://techzone.ibm.com/collection/liberty-getting-started-labs/environments>
 
 The lab environment contains one (1) Linux VM, named Workstation.
 
@@ -149,8 +151,13 @@ The lab environment contains one (1) Linux VM, named Workstation.
      <kbd>![student vm screen](./images/media/techzone-user-pw.png)</kbd>
 	 
 	 <br>
+     </details>
+
 
 ## 5. Tips for working in the lab environment     
+<details>
+<summary>Details how to use the clipboard etc.</summary>
+
 
 1. You can resize the viewable area using the **noVNC Settings** options to resize the virtual desktop to fit your screen.
 
@@ -236,6 +243,7 @@ In the environment, the default background for terminal windows and Visual Studi
 
         Close Visual Studio Code.
 
+     </details>
 <br>    
 
 
@@ -382,17 +390,20 @@ Now you will use Visual Studio Code to see what has been generated as part of th
     
     In the build section, you can find the configuration of the liberty-maven-plugin.
     <kbd>![image027](./images/media/image027.png)</kbd>
-<table>
-<tbody>
-<tr class="odd">
-<td><kbd><img src="./images/media/info.png" alt="sign-info" /></kbd></td>
-<td>
-<p>Don’t worry if the version of the plugin has changed to 3.10.2 or later.
-</p></td>
-</tr>
-</tbody>
-</table>
 
+    <table>
+    <tbody>
+    <tr class="odd">
+    <td><kbd><img src="./images/media/info.png" alt="sign-info" /></kbd></td>
+    <td>
+    <p>Don’t worry if the version of the plugin has changed to 3.10.2 or later.
+    </p></td>
+    </tr>
+    </tbody>
+    </table>
+
+    <br>
+    
     b. Finally close the pom.xml.
 
 5. Review the generated Liberty configuration
@@ -509,21 +520,25 @@ In the lab environment, the Liberty Tools Plugin has been installed into Visual 
 
     <kbd>![image043](./images/media/image043.png)</kbd>
 
-5. Switch to the browser window and enter the URL **localhost:9080**. You should see something like this:
+5. Switch to the browser window and enter the URL **http://localhost:9080**. You should see something like this:
 
     <kbd>![image044](./images/media/image044.png)</kbd>
-<table>
-<tbody>
-<tr class="odd">
-<td><kbd><img src="./images/media/info.png" alt="sign-info" /></kbd></td>
-<td>
-<p>If you get a pop-up with <strong>Authentication required</strong>, enter the password <strong>IBMDem0s!</strong> and click on <strong>Unlock</strong>.
-</p></td>
-</tr>
-</tbody>
-</table>
+    <table>
+    <tbody>
+    <tr class="odd">
+    <td><kbd><img src="./images/media/info.png" alt="sign-info" /></kbd></td>
+    <td>
+    <p>If you get a pop-up with <strong>Authentication required</strong>, enter the password <strong>IBMDem0s!</strong> and click on <strong>Unlock</strong>.
+    </p></td>
+    </tr>
+    </tbody>
+    </table>
 
-    Now, let’s create a simple web application.
+<br>
+
+**Now, let’s create a simple web application.**
+
+<br>
 
 ### 6.3.5 Edit the simpleweb application
 
@@ -531,7 +546,7 @@ Now you will edit the **simpleweb** application which only consists of a servlet
 
 1. Switch to Visual Studio Code.
 
-2. In Visual Studio Code, expand the path to **src/main/java/com/demo/rest**, then **right-click** on **demo** and select **New File**.
+2. In Visual Studio Code, expand the path to **src/main/java/com/demo/rest** and click on **demo**. Then **right-click** on **demo** and select **New File**.
 
     <kbd>![image045](./images/media/image045.png)</kbd>
 
@@ -560,7 +575,7 @@ Now you will edit the **simpleweb** application which only consists of a servlet
 
     <kbd>![image051](./images/media/image051.png)</kbd>
 
-9. Switch to the browser and open the URL **localhost:9080/simpleweb/helloWorld**. You should see the output of the created servlet.
+9. Switch to the browser and open the URL **http://localhost:9080/simpleweb/helloWorld**. You should see the output of the created servlet.
 
     <kbd>![image052](./images/media/image052.png)</kbd>
 
@@ -621,6 +636,7 @@ The generated maven pom by default does not generate a WAR file as it uses a “
 
 8. Close Visual Studio Code.
 
+Comment: To build the war file, you could also use the **mvn package** command.
 
 ### 6.3.7 Create a server package
 
@@ -670,11 +686,36 @@ You acted as developer and used Visual Studio Code and the Liberty Tools for the
 
 Useful links: https://github.com/OpenLiberty/liberty-tools-vscode/blob/HEAD/docs/user-guide.md 
 
+
+### 6.3.9 Troubleshooting
+
+You will need the server package for the Liberty Operations part of the lab. If you did not build the server package successfully, perform the following steps to be able to continue with the next part.
+
+1. If not already done, create the required working directories
+
+        mkdir ~/Student
+        mkdir ~/Student/dev
+        mkdir ~/Student/ops
+        mkdir ~/Student/assets
+
+2. Create a backup directory and clone the repository 
+ 
+        mkdir ~/Student/backup
+        git clone https://github.com/LarsBesselmann/LibertyGettingStarted-Lab /home/techzone/Student/backup
+
+3. Copy the server package to the assets directory
+
+        cp ~/Student/backup/assets/simpleweb-serverpackage.jar ~/Student/assets
+
+<br>
+
+
 ### 6.4 Liberty Operations 
 
 Now you will work with Liberty from an operational point of view. Development has handed over a Liberty server package to you. The server package contains all necessary configuration to run the application called **simpleweb**. The provided server package is typically not production-ready, as it is likely not portable between stages and does not fulfill the requirements regarding security and so on. 
 
 In this part of the lab, you will explore how to create configuration snippets and how to administer Liberty from the command line. But first you will explore the server package and get an understanding about dynamic updates.
+
 
 ### 6.4.1 Explore the server package
 
@@ -714,7 +755,7 @@ You will now explore the Liberty server package to get a better understanding ho
 
     <kbd>![image064](./images/media/image064.png)</kbd>
 
-    As you can see, the server package provided by the developer only contains the **servlet-6.0** features which is the only feature required by the application. 
+    As you can see, the server package provided by the developer only contains the **servlet-6.0** feature which is the only feature required by the application. 
 
 
 4. Run the following command to get the **list of defined Liberty application servers**:
@@ -733,7 +774,7 @@ You will now explore the Liberty server package to get a better understanding ho
     
     To start the server in the foreground (so the console messages are displayed in the command window) you would use the command 
     
-        test/wlp/bin/server run defaultServer. 
+        test/wlp/bin/server run defaultServer 
         
     You will use it later in the lab.
 
@@ -800,7 +841,7 @@ Let’s do a short excurse about Liberty dynamic updates. You will use Visual St
 
     <kbd>![image078](./images/media/image078.png)</kbd>
 
-9. Switch to the browser and access the application via URL **localhost:9081/mysimpleweb/helloWorld**.
+9. Switch to the browser and access the application via URL **http://localhost:9081/mysimpleweb/helloWorld**.
 
     <kbd>![image079](./images/media/image079.png)</kbd>
 
@@ -1158,9 +1199,9 @@ You will re-use the generated configuration snippets and other assets in the nex
 3. If not already done, exit **Visual Studio Code** and stop any running Liberty instance.
 
 
-### 6.4.2.5 Recap
+### 6.4.3 Recap
 
-In this section of the lab, you got an impression how to create and use configuration snippets:
+In this section of the lab, you got an impression how Liberty supports dynamic updates, how to create a portable configuration and how the Liberty tools can support you. In more detail, you 
 
 * used the **Liberty Tools configuration assistant** to create configuration snippets and to configure Liberty. 
 * used the **Liberty featureUtility tool** to install missing features.
@@ -1172,6 +1213,38 @@ Comments:
 
 * Instead of using the Liberty Tools configuration assistant in Visual Studio Code, you could also use the product documentation and copy & paste to create Liberty configuration snippets. 
 * You could also use the IBM migration tools to transform an existing configuration for WebSphere Traditional and other runtimes into a Liberty configuration.
+
+### 6.4.4 Troubleshooting
+
+You will need the some of the created artifacts like configuration snippets for the Liberty Administration part of the lab. If you did not complete this part of the lab successfully, perform the following steps to be able to continue with the next part.
+
+1. If not already done, create the required working directories
+
+        mkdir ~/Student
+        mkdir ~/Student/dev
+        mkdir ~/Student/ops
+        mkdir ~/Student/assets
+
+2. If not already done, create a backup directory and clone the repository 
+ 
+        mkdir ~/Student/backup
+        git clone https://github.com/LarsBesselmann/LibertyGettingStarted-Lab /home/techzone/Student/backup
+
+3. If not already done, copy the server package to the assets directory
+
+        cp ~/Student/backup/assets/simpleweb-serverpackage.jar ~/Student/assets
+
+4. Copy the created artifacts to the assets directory
+
+       cp ~/Student/backup/assets/server.* ~/Student/assets
+
+        cp ~/Student/backup/assets/application-config.xml ~/Student/assets
+
+        cp ~/Student/backup/assets/simpleweb.war ~/Student/assets
+
+
+<br>
+
 
 ### 6.5 Liberty Administration
 
@@ -1397,7 +1470,7 @@ If you do not create a keystore but enable SSL, Liberty will create a keystore w
     <tr class="odd">
     <td><kbd><img src="./images/media/info.png" alt="sign-info" /></kbd></td>
     <td>
-    <p>The encoded keystore password is not unique, so you might have a different password as in the screenshot above. <br> 
+    <p>The encoded keystore password is not unique, so you might have a different password than in the screenshot above. <br> 
         But as long as you use the same password to be encoded, all of the different resulting strings are valid. 
     </p></td>
     </tr>
@@ -1741,13 +1814,13 @@ The Liberty **AdminCenter** can be used to monitor the status of the Liberty ser
 
 1. Create a password as **Liberty4Admins** for the admin user.
 
-            wlp/bin/securityUtility encode --encoding=xor Liberty4Admins
+        wlp/bin/securityUtility encode --encoding=xor Liberty4Admins
 
     <kbd>![image164](./images/media/image164.png)</kbd>
 
 2. Create a password as **Liberty4Readers** for the second user.
 
-            wlp/bin/securityUtility encode --encoding=xor Liberty4Readers
+        wlp/bin/securityUtility encode --encoding=xor Liberty4Readers
 
     <kbd>![image165](./images/media/image165.png)</kbd>
 
@@ -1919,5 +1992,10 @@ In this lab, you learned how to develop a simple application as a developer, how
 **You have successfully completed the lab "Liberty Getting Started"**
 
 # Troubleshooting
+<details>
+<summary>Details around troubleshooting</summary>
+
 ## Liberty Tools Code Assistant
 If the code assistance via Liberty Tools does not work, make sure that the JAVA_HOME environment variable has been set to a valid value.
+
+</details>
